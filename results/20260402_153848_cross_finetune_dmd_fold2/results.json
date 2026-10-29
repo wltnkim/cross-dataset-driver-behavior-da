@@ -1,0 +1,9 @@
+{
+  "mode": "finetune",
+  "fold": 2,
+  "target_dataset": "dmd",
+  "test_accuracy": 0.9779310344827586,
+  "test_balanced_accuracy": 0.9763523613459973,
+  "best_val_balanced_accuracy": 0.9454028789661315,
+  "epochs_trained": 25
+}

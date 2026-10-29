@@ -1,0 +1,49 @@
+# --- Model checkpoints / pretrained weights (never redistribute) ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.bin
+
+# --- Raw video/array data (none present today, but guard the pattern) ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.npy
+*.npz
+
+# --- Python build artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- LaTeX build artifacts ---
+*.aux
+*.bbl
+*.blg
+*.fd
+*.lastpass
+*.map
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- Job logs ---
+*.log
+*.err
+*.out
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+# --- Editor/manual backups ---
+*.bak
+*.bak.*
+
+# --- Generated figures ---
+code/cross_dataset/paper/figures_new/

@@ -1,0 +1,17 @@
+TTA Method: tent, Fold: 0
+Source: results/20260402_091133_cross_dann_3mdad_fold0/best_model.pt
+Pre-adapt: Acc=0.9722, BA=0.9750
+Post-adapt: Acc=0.9722, BA=0.9688
+
+                    precision    recall  f1-score   support
+
+          drinking     1.0000    0.9375    0.9677        32
+        phone_call     0.9688    0.9688    0.9688        32
+     phone_texting     0.9697    1.0000    0.9846        32
+          reaching     1.0000    0.9375    0.9677        16
+adjusting_controls     0.9412    1.0000    0.9697        32
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9722       144
+         macro avg     0.8133    0.8073    0.8098       144
+      weighted avg     0.9732    0.9722    0.9722       144

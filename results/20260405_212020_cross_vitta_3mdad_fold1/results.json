@@ -1,0 +1,11 @@
+{
+  "method": "vitta",
+  "fold": 1,
+  "target_dataset": "3mdad",
+  "source_model": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260404_063046_cross_dann_3mdad_fold1/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.9411764705882353,
+  "pre_adapt_balanced_accuracy": 0.9470588235294117,
+  "test_accuracy": 0.9411764705882353,
+  "test_balanced_accuracy": 0.9470588235294117
+}

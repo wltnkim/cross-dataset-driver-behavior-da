@@ -1,0 +1,12 @@
+{
+  "method": "cleanadapt",
+  "fold": 2,
+  "target_dataset": "driveandact",
+  "source_model": "results/20260604_235447_cross_dann_r000_srconlysv_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.22758518796002183,
+  "pre_adapt_test_ba": 0.2613961400735895,
+  "test_accuracy": 0.3764404609475032,
+  "test_balanced_accuracy": 0.24026155666004542,
+  "best_val_balanced_accuracy": 0.24092525074735283
+}

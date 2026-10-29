@@ -1,0 +1,12 @@
+{
+  "method": "cleanadapt",
+  "fold": 2,
+  "target_dataset": "3mdad",
+  "source_model": "results/20260604_235447_cross_dann_r000_srconlysv_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.2823529411764706,
+  "pre_adapt_test_ba": 0.3117647058823529,
+  "test_accuracy": 0.2549019607843137,
+  "test_balanced_accuracy": 0.32941176470588235,
+  "best_val_balanced_accuracy": 0.27647058823529413
+}

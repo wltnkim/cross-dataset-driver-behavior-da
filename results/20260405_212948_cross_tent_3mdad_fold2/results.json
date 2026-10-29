@@ -1,0 +1,11 @@
+{
+  "method": "tent",
+  "fold": 2,
+  "target_dataset": "3mdad",
+  "source_model": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260404_072102_cross_dann_3mdad_fold2/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 1.0,
+  "pre_adapt_balanced_accuracy": 1.0,
+  "test_accuracy": 0.9934640522875817,
+  "test_balanced_accuracy": 0.9941176470588236
+}

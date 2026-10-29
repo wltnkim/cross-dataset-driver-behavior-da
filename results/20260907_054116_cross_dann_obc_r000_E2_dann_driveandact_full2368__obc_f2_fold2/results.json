@@ -1,0 +1,9 @@
+{
+  "mode": "dann",
+  "fold": 2,
+  "target_dataset": "obc",
+  "test_accuracy": 0.3390804597701149,
+  "test_balanced_accuracy": 0.2454594017094017,
+  "best_val_balanced_accuracy": 0.25729166666666664,
+  "epochs_trained": 50
+}

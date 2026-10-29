@@ -1,0 +1,8 @@
+{
+  "mode": "target_only",
+  "fold": 2,
+  "test_accuracy": 0.9751724137931035,
+  "test_balanced_accuracy": 0.9739729320885505,
+  "best_val_balanced_accuracy": 0.9545277557234625,
+  "epochs_trained": 23
+}

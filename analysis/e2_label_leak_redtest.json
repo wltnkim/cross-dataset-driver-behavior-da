@@ -1,0 +1,72 @@
+{
+ "n_iters": 3,
+ "batch": 4,
+ "backbone": "resnet50_tsn (random init, CPU)",
+ "A_clean": [
+  [
+   2.071726083755,
+   0.705439090729,
+   2.42444562912
+  ],
+  [
+   1.893717288971,
+   0.766051352024,
+   2.276742935181
+  ],
+  [
+   1.709515094757,
+   0.673618912697,
+   2.046324491501
+  ]
+ ],
+ "B_target_poisoned": [
+  [
+   2.071726083755,
+   0.705439090729,
+   2.42444562912
+  ],
+  [
+   1.893717288971,
+   0.766051352024,
+   2.276742935181
+  ],
+  [
+   1.709515094757,
+   0.673618912697,
+   2.046324491501
+  ]
+ ],
+ "C_source_poisoned": [
+  [
+   2.297893047333,
+   0.705439090729,
+   2.650612592697
+  ],
+  [
+   1.738055348396,
+   0.765521287918,
+   2.120815992355
+  ],
+  [
+   2.071446895599,
+   0.674690008163,
+   2.40879201889
+  ]
+ ],
+ "target_poison_identical": true,
+ "source_poison_differs": true,
+ "weight_sums": {
+  "A": 781680.8125,
+  "B": 781680.8125,
+  "C": 781680.125
+ },
+ "obc_pkl_sha256_unchanged": true,
+ "formulas_verified_verbatim": [
+  "s_domain_loss = domain_criterion(s_domain, s_domain_labels)",
+  "t_domain_loss = domain_criterion(t_domain, t_domain_labels)",
+  "domain_loss = 0.5 * (s_domain_loss + t_domain_loss)",
+  "loss = cls_loss + args.alpha_dann * domain_loss",
+  "cls_loss = s_cls_loss"
+ ],
+ "_restored_note": "Restored 2026-09-05 from logs/label_leak.log after the 2026-09-05 re-run of tools/redtest_label_leak.py overwrote this file in place. Values are the 2026-08-29 run's, verbatim from that log, and match _report_partE2.md and RUNPREP_2026-08-30.md. The 2026-09-05 run is kept separately as analysis/e2_label_leak_redtest_2026-09-05.json and logs/label_leak_2026-09-05.log."
+}

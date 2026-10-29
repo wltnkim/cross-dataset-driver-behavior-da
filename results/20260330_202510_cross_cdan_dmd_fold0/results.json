@@ -1,0 +1,8 @@
+{
+  "mode": "cdan",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "eval_target": "dmd",
+  "test_accuracy": 0.962890625,
+  "test_balanced_accuracy": 0.9425561486001449
+}

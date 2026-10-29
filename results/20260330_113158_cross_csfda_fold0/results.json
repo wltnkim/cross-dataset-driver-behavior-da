@@ -1,0 +1,11 @@
+{
+  "method": "csfda",
+  "fold": 0,
+  "source_model": "results/20260324_144811_cross_dann_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.9706241985811879,
+  "pre_adapt_test_ba": 0.9500861842199098,
+  "test_accuracy": 0.9579100145137881,
+  "test_balanced_accuracy": 0.9524099694361073,
+  "best_val_balanced_accuracy": 0.9714398952302178
+}

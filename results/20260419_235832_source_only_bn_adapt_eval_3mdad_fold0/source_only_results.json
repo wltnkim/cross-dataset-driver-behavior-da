@@ -1,0 +1,11 @@
+{
+  "obc_test": {
+    "accuracy": 0.11494252873563218,
+    "balanced_accuracy": 0.18349358974358976
+  },
+  "3mdad_test": {
+    "accuracy": 0.2222222222222222,
+    "balanced_accuracy": 0.2
+  },
+  "domain_gap": -0.016506410256410253
+}

@@ -1,0 +1,17 @@
+Method: shot, Fold: 1
+Source model: results/20260402_092529_cross_dann_dmd_fold1/best_model.pt
+Pre-adapt Test BA: 0.9544
+Post-adapt Test BA: 0.9588
+
+                    precision    recall  f1-score   support
+
+          drinking     0.9585    0.9250    0.9415       200
+        phone_call     0.9888    0.9751    0.9819      1083
+     phone_texting     0.9412    0.9486    0.9449       506
+          reaching     0.9454    0.9454    0.9454       769
+adjusting_controls     0.8487    1.0000    0.9182       101
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9586      2659
+         macro avg     0.7804    0.7990    0.7886      2659
+      weighted avg     0.9596    0.9586    0.9588      2659

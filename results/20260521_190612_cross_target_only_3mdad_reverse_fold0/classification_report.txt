@@ -1,0 +1,16 @@
+Mode: target_only, Fold: 0
+Test Accuracy: 0.1705
+Test Balanced Accuracy: 0.1740
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0000    0.0000    0.0000        16
+        phone_call     0.1290    0.2500    0.1702        16
+     phone_texting     0.0000    0.0000    0.0000        16
+          reaching     1.0000    0.0125    0.0247        80
+adjusting_controls     0.1773    0.7812    0.2890        32
+          seatbelt     0.0000    0.0000    0.0000        16
+
+          accuracy                         0.1705       176
+         macro avg     0.2177    0.1740    0.0807       176
+      weighted avg     0.4985    0.1705    0.0792       176

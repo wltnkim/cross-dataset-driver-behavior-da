@@ -1,0 +1,20 @@
+# Training and evaluation (versions used for the paper's experiments; install the
+# torch/torchvision wheels that match your CUDA version, the paper used CUDA 12.4)
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.57.6
+huggingface_hub==0.36.2
+accelerate
+timm==1.0.26
+decord==0.6.0
+einops==0.8.2
+omegaconf==2.3.0
+scikit-learn==1.6.1
+pandas==2.3.3
+seaborn
+pyyaml
+
+# Statistics, tables and figures (CPU only)
+numpy
+scipy
+matplotlib==3.11.2

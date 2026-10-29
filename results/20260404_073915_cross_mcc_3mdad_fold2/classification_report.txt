@@ -1,0 +1,16 @@
+Mode: mcc, Fold: 2
+Test Accuracy: 0.9804
+Test Balanced Accuracy: 0.9824
+
+                    precision    recall  f1-score   support
+
+          drinking     1.0000    0.9706    0.9851        34
+        phone_call     0.9714    1.0000    0.9855        34
+     phone_texting     1.0000    0.9412    0.9697        34
+          reaching     1.0000    1.0000    1.0000        17
+adjusting_controls     0.9444    1.0000    0.9714        34
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9804       153
+         macro avg     0.8193    0.8186    0.8186       153
+      weighted avg     0.9813    0.9804    0.9804       153

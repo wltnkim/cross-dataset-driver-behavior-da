@@ -1,0 +1,8 @@
+group,method,source,target,backbone
+E2,dann,3mdad_full153,obc,videomae
+E2,dann,dmd_full2659,obc,videomae
+E2,dann,driveandact_full2368,obc,videomae
+E3,dann,obc,dmd,r2plus1d_18
+E3,dann,obc,dmd,resnet50_tsn
+R2-4,cdan,obc,driveandact,videomae
+R2-4,dann,obc,driveandact,videomae

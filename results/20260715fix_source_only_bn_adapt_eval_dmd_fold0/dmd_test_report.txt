@@ -1,0 +1,16 @@
+dmd Test (source-only, fold=0)
+Accuracy: 0.2576
+Balanced Accuracy: 0.2209
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0000    0.0000    0.0000       263
+        phone_call     0.3342    0.0771    0.1253      1699
+     phone_texting     0.1925    0.4329    0.2665       767
+          reaching     0.5744    0.4889    0.5282      1168
+adjusting_controls     0.0588    0.1055    0.0755       199
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.2576      4096
+         macro avg     0.1933    0.1841    0.1659      4096
+      weighted avg     0.3413    0.2576    0.2562      4096

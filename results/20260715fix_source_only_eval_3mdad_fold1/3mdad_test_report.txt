@@ -1,0 +1,16 @@
+3mdad Test (source-only, fold=1)
+Accuracy: 0.1830
+Balanced Accuracy: 0.2059
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0000    0.0000    0.0000        34
+        phone_call     0.2143    0.0882    0.1250        34
+     phone_texting     0.2326    0.2941    0.2597        34
+          reaching     0.3889    0.4118    0.4000        17
+adjusting_controls     0.1290    0.2353    0.1667        34
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.1830       153
+         macro avg     0.1608    0.1716    0.1586       153
+      weighted avg     0.1712    0.1830    0.1670       153

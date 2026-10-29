@@ -1,0 +1,12 @@
+{
+  "method": "shot",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "source_model": "results/20260330_140718_cross_dann_dmd_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.9796555770523664,
+  "pre_adapt_test_ba": 0.9746615834681128,
+  "test_accuracy": 0.9609375,
+  "test_balanced_accuracy": 0.9587404697040636,
+  "best_val_balanced_accuracy": 0.9650070184246763
+}

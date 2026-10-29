@@ -1,0 +1,136 @@
+{
+  "_comment": "Cross-dataset unified class mapping for OBC <-> Drive&Act <-> 3MDAD <-> DMD",
+  "_note": "unified_label is the new 0-indexed label used for all cross-dataset experiments",
+
+  "unified_classes": [
+    {
+      "unified_label": 0,
+      "name": "drinking",
+      "description": "Drinking from a bottle or cup",
+      "obc": ["MN_DriPkg_1"],
+      "driveandact": ["drinking", "opening_bottle", "closing_bottle"],
+      "threeMDAD": ["drinking_right", "drinking_left"],
+      "dmd": ["driver_actions/drinking"]
+    },
+    {
+      "unified_label": 1,
+      "name": "phone_call",
+      "description": "Talking on phone (handheld or speakerphone)",
+      "obc": ["MN_DriPkg_3"],
+      "driveandact": ["talking_on_phone"],
+      "threeMDAD": ["phone_call_right", "phone_call_left"],
+      "dmd": ["driver_actions/phonecall_left", "driver_actions/phonecall_right"]
+    },
+    {
+      "unified_label": 2,
+      "name": "phone_texting",
+      "description": "Interacting with phone (texting, browsing, GPS)",
+      "obc": ["MN_DriPkg_4"],
+      "driveandact": ["interacting_with_phone"],
+      "threeMDAD": ["texting_right", "texting_left"],
+      "dmd": ["driver_actions/texting_left", "driver_actions/texting_right"]
+    },
+    {
+      "unified_label": 3,
+      "name": "reaching",
+      "description": "Reaching for or fetching an object",
+      "obc": ["MN_PasTsk_F", "MN_PasTsk_G", "MN_PasTsk_H", "MN_PasTsk_J", "MN_DriPkg_6"],
+      "driveandact": ["fetching_an_object", "placing_an_object"],
+      "threeMDAD": ["reaching_behind"],
+      "dmd": ["driver_actions/reach_side", "driver_actions/reach_backseat"]
+    },
+    {
+      "unified_label": 4,
+      "name": "adjusting_controls",
+      "description": "Adjusting vehicle controls (HVAC, multimedia, dashboard)",
+      "obc": ["MN_DriTsk_B", "MN_PasTsk_A"],
+      "driveandact": ["using_multimedia_display", "pressing_automation_button"],
+      "threeMDAD": ["adjusting_radio", "gps_operating"],
+      "dmd": ["driver_actions/radio"]
+    },
+    {
+      "unified_label": 5,
+      "name": "seatbelt",
+      "description": "Fastening or unfastening seat belt",
+      "obc": ["MN_PasTsk_E"],
+      "driveandact": ["fastening_seat_belt", "unfastening_seat_belt"],
+      "threeMDAD": null,
+      "dmd": null
+    }
+  ],
+
+  "_excluded_classes": {
+    "_note": "talking_to_passenger excluded: D&A official splits drop looking_back_*_shoulder (only 18 entries in master CSV, 0 in all split files)",
+    "name": "talking_to_passenger",
+    "obc": ["MN_DriPkg_5"],
+    "driveandact": ["looking_back_left_shoulder", "looking_back_right_shoulder"],
+    "threeMDAD": ["talking_to_passenger"]
+  },
+
+  "obc_class_names": [
+    "MN_HeaROM_3", "MN_DriPkg_1", "MN_DriPkg_5", "MN_PasTsk_F", "MN_HeaROM_2",
+    "MN_PasTsk_I", "MN_PasTsk_H", "MN_PasTsk_D", "MN_DriTsk_B", "MN_DriPkg_3",
+    "MN_PasTsk_J", "MN_PosChg_4", "MN_PasTsk_C", "MN_DriTsk_D", "MN_PasTsk_B",
+    "MN_DriPkg_6", "MN_HeaROM_1", "MN_DriPkg_2", "MN_TorROM_2", "MN_TorROM_3",
+    "MN_DriTsk_A", "MN_DriTsk_C", "MN_TorROM_1", "MN_PosChg_1", "MN_PosChg_2",
+    "MN_HeaROM_4", "MN_PasTsk_G", "MN_PasTsk_A", "MN_DriTsk_E", "MN_TorROM_4",
+    "MN_PosChg_3", "MN_PasTsk_E", "MN_DriPkg_4"
+  ],
+
+  "driveandact_annotation_file": "activities_3s/kinect_color/midlevel.chunks_90.csv",
+  "driveandact_video_dir": "kinect_color",
+  "driveandact_splits": {
+    "split_0": {
+      "train": "activities_3s/kinect_color/midlevel.chunks_90.split_0.train.csv",
+      "val": "activities_3s/kinect_color/midlevel.chunks_90.split_0.val.csv",
+      "test": "activities_3s/kinect_color/midlevel.chunks_90.split_0.test.csv"
+    },
+    "split_1": {
+      "train": "activities_3s/kinect_color/midlevel.chunks_90.split_1.train.csv",
+      "val": "activities_3s/kinect_color/midlevel.chunks_90.split_1.val.csv",
+      "test": "activities_3s/kinect_color/midlevel.chunks_90.split_1.test.csv"
+    },
+    "split_2": {
+      "train": "activities_3s/kinect_color/midlevel.chunks_90.split_2.train.csv",
+      "val": "activities_3s/kinect_color/midlevel.chunks_90.split_2.val.csv",
+      "test": "activities_3s/kinect_color/midlevel.chunks_90.split_2.test.csv"
+    }
+  },
+
+  "threeMDAD_splits": {
+    "split_0": {
+      "train": "annotations/3mdad.split_0.train.csv",
+      "val": "annotations/3mdad.split_0.val.csv",
+      "test": "annotations/3mdad.split_0.test.csv"
+    },
+    "split_1": {
+      "train": "annotations/3mdad.split_1.train.csv",
+      "val": "annotations/3mdad.split_1.val.csv",
+      "test": "annotations/3mdad.split_1.test.csv"
+    },
+    "split_2": {
+      "train": "annotations/3mdad.split_2.train.csv",
+      "val": "annotations/3mdad.split_2.val.csv",
+      "test": "annotations/3mdad.split_2.test.csv"
+    }
+  },
+
+  "dmd_annotation_dir": "annotations_3s",
+  "dmd_splits": {
+    "split_0": {
+      "train": "annotations_3s/dmd.chunks_90.split_0.train.csv",
+      "val": "annotations_3s/dmd.chunks_90.split_0.val.csv",
+      "test": "annotations_3s/dmd.chunks_90.split_0.test.csv"
+    },
+    "split_1": {
+      "train": "annotations_3s/dmd.chunks_90.split_1.train.csv",
+      "val": "annotations_3s/dmd.chunks_90.split_1.val.csv",
+      "test": "annotations_3s/dmd.chunks_90.split_1.test.csv"
+    },
+    "split_2": {
+      "train": "annotations_3s/dmd.chunks_90.split_2.train.csv",
+      "val": "annotations_3s/dmd.chunks_90.split_2.val.csv",
+      "test": "annotations_3s/dmd.chunks_90.split_2.test.csv"
+    }
+  }
+}

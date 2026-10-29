@@ -1,0 +1,13 @@
+{
+  "config_id": "obc573",
+  "description": "The OBC source arm. NOT a CSV manifest: the trainer builds it through OBCCrossDataset, whose subject-disjoint split is recomputed at import time from a fixed seed, not stored.",
+  "flags": {"--obc_metadata": "features/keyframe_video_metadata_dualcam.pkl"},
+  "n_train": 573, "n_val": 176, "n_test": 174,
+  "split_rule": "np.random.RandomState(42).shuffle(sorted(set(subjects))) then [:26] [26:34] [34:] (obc_dataset.py:96-102)",
+  "frozen_inputs": {
+    "keyframe_video_metadata_dualcam.pkl": "28355607 bytes",
+    "keyframe_video_metadata_dualcam_cache.npy": "21180644352 bytes",
+    "keyframe_video_metadata_dualcam_cache_meta.pkl": "21729 bytes"
+  },
+  "caution": "Because the split is recomputed rather than stored, it is a function of the seed AND of the sorted subject list. It would change silently if the cache were ever rebuilt with a different subject set. The cache is frozen and read-only, so this cannot happen without notice."
+}

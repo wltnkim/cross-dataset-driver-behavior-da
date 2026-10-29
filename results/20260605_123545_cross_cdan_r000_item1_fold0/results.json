@@ -1,0 +1,9 @@
+{
+  "mode": "cdan",
+  "fold": 0,
+  "target_dataset": "driveandact",
+  "test_accuracy": 0.4528301886792453,
+  "test_balanced_accuracy": 0.2700001057786898,
+  "best_val_balanced_accuracy": 0.1856059710898421,
+  "epochs_trained": 16
+}

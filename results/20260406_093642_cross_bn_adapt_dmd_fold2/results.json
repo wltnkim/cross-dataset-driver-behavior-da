@@ -1,0 +1,11 @@
+{
+  "method": "bn_adapt",
+  "fold": 2,
+  "target_dataset": "dmd",
+  "source_model": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260402_202037_cross_dann_dmd_fold2/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.9758620689655172,
+  "pre_adapt_balanced_accuracy": 0.9781237070624608,
+  "test_accuracy": 0.9758620689655172,
+  "test_balanced_accuracy": 0.9781237070624608
+}

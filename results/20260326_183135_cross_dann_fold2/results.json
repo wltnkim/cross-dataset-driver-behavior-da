@@ -1,0 +1,8 @@
+{
+  "mode": "dann",
+  "fold": 2,
+  "test_accuracy": 0.9359795134443022,
+  "test_balanced_accuracy": 0.9239749240854581,
+  "best_val_balanced_accuracy": 0.9605413953361078,
+  "epochs_trained": 24
+}

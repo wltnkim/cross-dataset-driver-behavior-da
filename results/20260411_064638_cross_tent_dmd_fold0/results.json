@@ -1,0 +1,11 @@
+{
+  "method": "tent",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "source_model": "results/20260330_140718_cross_dann_dmd_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.97509765625,
+  "pre_adapt_balanced_accuracy": 0.9746615834681128,
+  "test_accuracy": 0.97509765625,
+  "test_balanced_accuracy": 0.9707086626829916
+}

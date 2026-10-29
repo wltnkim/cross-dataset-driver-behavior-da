@@ -1,0 +1,34 @@
+{
+  "target_dataset": "dmd",
+  "fold": 0,
+  "tag": "linear_probe_bbsmall",
+  "source_model": null,
+  "n_train_total": 2659,
+  "n_test": 4096,
+  "ratios": {
+    "0.005": {
+      "n_train": 12,
+      "balanced_accuracy": 0.3470233954423264
+    },
+    "0.01": {
+      "n_train": 25,
+      "balanced_accuracy": 0.4056867375046932
+    },
+    "0.025": {
+      "n_train": 65,
+      "balanced_accuracy": 0.5453996147151485
+    },
+    "0.05": {
+      "n_train": 132,
+      "balanced_accuracy": 0.6309389335379119
+    },
+    "0.1": {
+      "n_train": 264,
+      "balanced_accuracy": 0.6783866442328126
+    },
+    "1.0": {
+      "n_train": 2659,
+      "balanced_accuracy": 0.718848554559781
+    }
+  }
+}

@@ -1,0 +1,17 @@
+TTA Method: bn_adapt, Fold: 1
+Source: <DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260402_092529_cross_dann_dmd_fold1/best_model.pt
+Pre-adapt: Acc=0.9624, BA=0.9544
+Post-adapt: Acc=0.9624, BA=0.9544
+
+                    precision    recall  f1-score   support
+
+          drinking     1.0000    0.8900    0.9418       200
+        phone_call     0.9870    0.9788    0.9828      1083
+     phone_texting     0.8966    0.9763    0.9347       506
+          reaching     0.9655    0.9467    0.9560       769
+adjusting_controls     0.9706    0.9802    0.9754       101
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9624      2659
+         macro avg     0.8033    0.7953    0.7985      2659
+      weighted avg     0.9639    0.9624    0.9626      2659

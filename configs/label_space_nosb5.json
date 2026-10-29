@@ -1,0 +1,11 @@
+{
+  "config_id": "nosb5",
+  "description": "5-class no-seatbelt variant. Unified label 5 (seatbelt) is dropped from every split, source and target, before any loader is built; the head is 5-wide.",
+  "flags": {"--label_space": "nosb5"},
+  "num_classes": 5,
+  "class_names": ["drinking","phone_call","phone_texting","reaching","adjusting_controls"],
+  "dropped": {"unified_label": 5, "name": "seatbelt"},
+  "rationale": "DMD and 3MDAD have no seatbelt in ground truth, so the submitted 6-wide head carries a class those targets can never exhibit. This arm removes the asymmetry rather than reporting around it.",
+  "verified_by": "tools/dry_construct.py -> head [5,768], model.num_classes=5, domain head 2; red side: requesting 3 returns a 3-wide head",
+  "note": "Labels 0-4 stay contiguous when 5 is dropped, so no remap is needed; DropClassDataset asserts this."
+}

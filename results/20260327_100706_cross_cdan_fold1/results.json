@@ -1,0 +1,8 @@
+{
+  "mode": "cdan",
+  "fold": 1,
+  "test_accuracy": 0.9545454545454546,
+  "test_balanced_accuracy": 0.9511853911002283,
+  "best_val_balanced_accuracy": 0.9358539275219054,
+  "epochs_trained": 33
+}

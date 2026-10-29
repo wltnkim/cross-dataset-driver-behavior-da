@@ -1,0 +1,9 @@
+{
+  "mode": "cdan",
+  "fold": 2,
+  "target_dataset": "3mdad",
+  "test_accuracy": 0.2549019607843137,
+  "test_balanced_accuracy": 0.3235294117647059,
+  "best_val_balanced_accuracy": 0.3117647058823529,
+  "epochs_trained": 50
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "dann",
+  "fold": 1,
+  "target_dataset": "dmd",
+  "eval_target": "dmd",
+  "test_accuracy": 0.31440391124482886,
+  "test_balanced_accuracy": 0.28016263356269516
+}

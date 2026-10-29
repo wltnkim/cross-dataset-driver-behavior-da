@@ -1,0 +1,32 @@
+{
+  "target_dataset": "dmd",
+  "fold": 1,
+  "n_train_total": 2900,
+  "n_test": 2659,
+  "ratios": {
+    "0.005": {
+      "n_train": 13,
+      "balanced_accuracy": 0.5726461321277668
+    },
+    "0.01": {
+      "n_train": 28,
+      "balanced_accuracy": 0.6338348882990517
+    },
+    "0.025": {
+      "n_train": 70,
+      "balanced_accuracy": 0.7252811149847157
+    },
+    "0.05": {
+      "n_train": 144,
+      "balanced_accuracy": 0.7905635398050089
+    },
+    "0.1": {
+      "n_train": 289,
+      "balanced_accuracy": 0.835073581070634
+    },
+    "1.0": {
+      "n_train": 2900,
+      "balanced_accuracy": 0.8908942255703483
+    }
+  }
+}

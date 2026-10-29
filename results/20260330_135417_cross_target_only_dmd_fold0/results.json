@@ -1,0 +1,8 @@
+{
+  "mode": "target_only",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "eval_target": "dmd",
+  "test_accuracy": 0.97021484375,
+  "test_balanced_accuracy": 0.9701623433510939
+}

@@ -1,0 +1,11 @@
+{
+  "method": "bn_adapt",
+  "fold": 0,
+  "target_dataset": "3mdad",
+  "source_model": "results/20260402_091133_cross_dann_3mdad_fold0/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.9722222222222222,
+  "pre_adapt_balanced_accuracy": 0.975,
+  "test_accuracy": 0.9722222222222222,
+  "test_balanced_accuracy": 0.975
+}

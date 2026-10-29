@@ -1,0 +1,34 @@
+{
+  "target_dataset": "driveandact",
+  "fold": 1,
+  "tag": "linear_probe_uda_dann",
+  "source_model": "results/20260607_181909_cross_dann_r000_uni_fold1/best_model.pt",
+  "n_train_total": 2469,
+  "n_test": 616,
+  "ratios": {
+    "0.005": {
+      "n_train": 10,
+      "balanced_accuracy": 0.3511763155369763
+    },
+    "0.01": {
+      "n_train": 21,
+      "balanced_accuracy": 0.3090961017709082
+    },
+    "0.025": {
+      "n_train": 59,
+      "balanced_accuracy": 0.33364941529266984
+    },
+    "0.05": {
+      "n_train": 120,
+      "balanced_accuracy": 0.44722571622780743
+    },
+    "0.1": {
+      "n_train": 243,
+      "balanced_accuracy": 0.5687128622361248
+    },
+    "1.0": {
+      "n_train": 2469,
+      "balanced_accuracy": 0.7061636854181033
+    }
+  }
+}

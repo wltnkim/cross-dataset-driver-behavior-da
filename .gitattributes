@@ -1,0 +1,3 @@
+# Frozen manifests are byte-exact copies whose SHA-256 values are recorded in the preregistration;
+# keep their CRLF line endings untouched on checkout.
+manifests/*.csv -text

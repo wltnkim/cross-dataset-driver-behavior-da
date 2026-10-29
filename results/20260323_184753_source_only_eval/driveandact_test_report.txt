@@ -1,0 +1,16 @@
+Drive&Act Test (source-only, fold=0)
+Accuracy: 0.1713
+Balanced Accuracy: 0.2379
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0939    0.3919    0.1514        74
+        phone_call     0.1250    0.0118    0.0215        85
+     phone_texting     0.3151    0.5542    0.4017        83
+          reaching     0.4203    0.1082    0.1721       268
+adjusting_controls     0.0000    0.0000    0.0000       143
+          seatbelt     0.0839    0.3611    0.1361        36
+
+          accuracy                         0.1713       689
+         macro avg     0.1730    0.2379    0.1472       689
+      weighted avg     0.2313    0.1713    0.1414       689

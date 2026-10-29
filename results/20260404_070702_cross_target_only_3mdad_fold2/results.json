@@ -1,0 +1,9 @@
+{
+  "mode": "target_only",
+  "fold": 2,
+  "target_dataset": "3mdad",
+  "test_accuracy": 0.9281045751633987,
+  "test_balanced_accuracy": 0.9294117647058823,
+  "best_val_balanced_accuracy": 0.9529411764705882,
+  "epochs_trained": 18
+}

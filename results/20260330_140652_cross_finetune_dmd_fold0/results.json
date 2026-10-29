@@ -1,0 +1,8 @@
+{
+  "mode": "finetune",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "eval_target": "dmd",
+  "test_accuracy": 0.9736328125,
+  "test_balanced_accuracy": 0.9764285901857737
+}

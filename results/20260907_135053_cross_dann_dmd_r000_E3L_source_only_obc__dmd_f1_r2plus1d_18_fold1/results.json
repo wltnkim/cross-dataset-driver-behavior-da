@@ -1,0 +1,9 @@
+{
+  "mode": "dann",
+  "fold": 1,
+  "target_dataset": "dmd",
+  "test_accuracy": 0.27792403159082363,
+  "test_balanced_accuracy": 0.2613742101262266,
+  "best_val_balanced_accuracy": 0.3138285408710947,
+  "epochs_trained": 50
+}

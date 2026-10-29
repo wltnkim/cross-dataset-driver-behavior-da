@@ -1,0 +1,8 @@
+{
+  "mode": "finetune",
+  "fold": 1,
+  "test_accuracy": 0.961038961038961,
+  "test_balanced_accuracy": 0.9512495171208633,
+  "best_val_balanced_accuracy": 0.9449666009894176,
+  "epochs_trained": 35
+}

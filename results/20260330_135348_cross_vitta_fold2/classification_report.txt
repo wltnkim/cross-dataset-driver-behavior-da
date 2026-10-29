@@ -1,0 +1,17 @@
+TTA Method: vitta, Fold: 2
+Source: results/20260326_183135_cross_dann_fold2/best_model.pt
+Pre-adapt: Acc=0.9360, BA=0.9240
+Post-adapt: Acc=0.9398, BA=0.9231
+
+                    precision    recall  f1-score   support
+
+          drinking     0.9333    0.9180    0.9256        61
+        phone_call     0.9048    0.8906    0.8976        64
+     phone_texting     0.8922    0.8426    0.8667       108
+          reaching     0.9437    0.9649    0.9542       313
+adjusting_controls     0.9821    0.9821    0.9821       168
+          seatbelt     0.9265    0.9403    0.9333        67
+
+          accuracy                         0.9398       781
+         macro avg     0.9304    0.9231    0.9266       781
+      weighted avg     0.9394    0.9398    0.9394       781

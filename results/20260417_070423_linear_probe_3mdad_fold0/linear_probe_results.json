@@ -1,0 +1,32 @@
+{
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "n_train_total": 153,
+  "n_test": 144,
+  "ratios": {
+    "0.005": {
+      "n_train": 5,
+      "balanced_accuracy": 0.65625
+    },
+    "0.01": {
+      "n_train": 5,
+      "balanced_accuracy": 0.65625
+    },
+    "0.025": {
+      "n_train": 5,
+      "balanced_accuracy": 0.65625
+    },
+    "0.05": {
+      "n_train": 5,
+      "balanced_accuracy": 0.65625
+    },
+    "0.1": {
+      "n_train": 13,
+      "balanced_accuracy": 0.6125
+    },
+    "1.0": {
+      "n_train": 153,
+      "balanced_accuracy": 0.89375
+    }
+  }
+}

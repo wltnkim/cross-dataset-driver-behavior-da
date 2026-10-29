@@ -1,0 +1,9 @@
+{
+  "mode": "mcc",
+  "fold": 0,
+  "target_dataset": "3mdad",
+  "test_accuracy": 0.2013888888888889,
+  "test_balanced_accuracy": 0.28125,
+  "best_val_balanced_accuracy": 0.31764705882352945,
+  "epochs_trained": 18
+}

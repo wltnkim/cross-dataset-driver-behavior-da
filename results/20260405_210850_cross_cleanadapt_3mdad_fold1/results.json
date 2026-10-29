@@ -1,0 +1,12 @@
+{
+  "method": "cleanadapt",
+  "fold": 1,
+  "target_dataset": "3mdad",
+  "source_model": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260404_063046_cross_dann_3mdad_fold1/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.975,
+  "pre_adapt_test_ba": 0.9470588235294117,
+  "test_accuracy": 0.9934640522875817,
+  "test_balanced_accuracy": 0.9941176470588236,
+  "best_val_balanced_accuracy": 0.9875
+}

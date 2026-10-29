@@ -1,0 +1,8 @@
+{
+  "mode": "dann",
+  "fold": 0,
+  "target_dataset": "driveandact",
+  "eval_target": "driveandact",
+  "test_accuracy": 0.43541364296081275,
+  "test_balanced_accuracy": 0.3015163171432675
+}

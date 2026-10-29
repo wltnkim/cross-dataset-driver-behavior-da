@@ -1,0 +1,18 @@
+# Preregistration integrity record.
+# "as registered" is the content that existed BEFORE any E1 result and before Amendment 1.
+# "with amendment 1" is the current file. Amendment 1 appends only; nothing above the line changed.
+efd6b837778c0463297b55b9abcb6b3b9d2333fdb46e3ad2bfa63a21f5188efc  PREREGISTRATION.md  (as registered 2026-08-29T21:24Z)
+4d60af8b7ded8ad0a7d136670a954f40576c04e4f29f21c491b31f1811cdac34  PREREGISTRATION.md  (with amendment 1, 2026-08-29T21:47Z)
+949bd314ec38509a  PREREGISTRATION.md  (with amendment 2 - E2 protocol note, 2026-08-29T22:10Z)
+2f2f5598303e974d3e0fb3d78271a525ab93c6f841ed3c0db430a8d9e58b5069  PREREGISTRATION.md  (with amendment 3 - E2 seed replicates, 2026-09-05T09:30Z)
+# Append-only is PROVED, not asserted: truncating the file at each amendment header and
+# re-hashing reproduces the hashes above exactly (efd6b837778c0463, 4d60af8b7ded8ad0,
+# and 949bd314ec38509a for the pre-amendment-3 state, re-verified 2026-09-05).
+b3f22b31025d58cb4514c60a57a0c17073768e2cb09dd94c03c9a8c96412a309  manifests/broad573.csv
+1f7247ab5f92f3e46488c1c214bb0cb8aee50052914f55493bd9f9dbde64baa5  manifests/da573_random.csv
+83c0f39d0d4dfe1823ee27957d87f8886c741f0c965514c900ac89eb537628d2  manifests/narrow573.csv
+80629bb3e220c921ce007fd7e52cfe452c154ed17da8426d91d6b2035645c63e  PROTOCOL_CHANGE_50EPOCH.md
+# 2026-09-07: adjudication of the preregistration against the completed 107-run Swan campaign.
+# Append-only from the moment it was written (swan/ADJUDICATION_2026-09-07.md's own header);
+# a correction is a new dated section appended below its line, never an edit above it.
+80c1af7d67f37b71c7428e2c83367022df833ad505736638b98c8cecee0acfc8  swan/ADJUDICATION_2026-09-07.md

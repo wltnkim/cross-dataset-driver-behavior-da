@@ -1,0 +1,16 @@
+OBC Test (unified classes)
+Accuracy: 0.1437
+Balanced Accuracy: 0.2604
+
+                    precision    recall  f1-score   support
+
+          drinking     0.3125    0.6250    0.4167        16
+        phone_call     0.1316    0.3125    0.1852        16
+     phone_texting     0.1186    0.4375    0.1867        16
+          reaching     0.0000    0.0000    0.0000        78
+adjusting_controls     0.0000    0.0000    0.0000        32
+          seatbelt     0.0968    0.1875    0.1277        16
+
+          accuracy                         0.1437       174
+         macro avg     0.1099    0.2604    0.1527       174
+      weighted avg     0.0606    0.1437    0.0842       174

@@ -1,0 +1,9 @@
+{
+  "mode": "target_only",
+  "fold": 0,
+  "target_dataset": "driveandact",
+  "test_accuracy": 0.9390420899854862,
+  "test_balanced_accuracy": 0.9330080087947379,
+  "best_val_balanced_accuracy": 0.9462765480238597,
+  "epochs_trained": 45
+}

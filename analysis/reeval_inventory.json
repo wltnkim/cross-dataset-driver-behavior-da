@@ -1,0 +1,4419 @@
+[
+ {
+  "run_dir": "20260829_212757_cross_dann_dmd_r000_calibB573_fold0",
+  "status": "NO_APPLIED_RETENTION"
+ },
+ {
+  "run_dir": "20260831_200417_cross_cdan_3mdad_r000_E1_cdan_da573_random__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__3mdad_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.21176470588235294,
+  "test_ba_reported": 0.2125,
+  "test_acc_reported": 0.125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.21176470588235294,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.7514574334466807,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 41,
+    "file": "epoch_041.pt",
+    "present": true,
+    "value": 0.16674251854419708,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_005.pt",
+   "epoch_041.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260831_202112_cross_cdan_3mdad_r000_E1_cdan_da573_random__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__3mdad_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.2,
+  "test_ba_reported": 0.2,
+  "test_acc_reported": 0.1111111111111111,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 4,
+    "file": "epoch_004.pt",
+    "present": true,
+    "value": 0.7933968560312646,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 35,
+    "file": "epoch_035.pt",
+    "present": true,
+    "value": 0.25171709060668945,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_004.pt",
+   "epoch_035.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260831_202417_cross_cdan_3mdad_r000_E1_cdan_da573_random__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__3mdad_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.2,
+  "test_ba_reported": 0.20588235294117646,
+  "test_acc_reported": 0.11764705882352941,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 6,
+    "file": "epoch_006.pt",
+    "present": true,
+    "value": 0.6944859376983032,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.2564418613910675,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_006.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260831_204536_cross_cdan_dmd_r000_E1_cdan_da573_random__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__dmd_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5286112604610375,
+  "test_ba_reported": 0.5141485165688032,
+  "test_acc_reported": 0.464111328125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5286112604610375,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 20,
+    "file": "epoch_020.pt",
+    "present": true,
+    "value": 0.9392696312051151,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 37,
+    "file": "epoch_037.pt",
+    "present": true,
+    "value": 0.1182510182261467,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_020.pt",
+   "epoch_037.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260831_204536_cross_cdan_dmd_r000_E1_cdan_da573_random__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__dmd_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.6033038776385767,
+  "test_ba_reported": 0.5478642105356865,
+  "test_acc_reported": 0.4490409928544566,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.6033038776385767,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.9349625111049843,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 34,
+    "file": "epoch_034.pt",
+    "present": true,
+    "value": 0.14602279663085938,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_005.pt",
+   "epoch_034.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_003851_cross_cdan_dmd_r000_E1_cdan_da573_random__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_da573_random__dmd_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 14,
+  "best_val_ba_reported": 0.5038826854927653,
+  "test_ba_reported": 0.551935970438872,
+  "test_acc_reported": 0.5427586206896552,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.5038826854927653,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.9346496295421027,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.25585735109107505,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 29,
+    "file": "epoch_029.pt",
+    "present": true,
+    "value": 0.11163642257452011,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_014.pt",
+   "epoch_029.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_065638_cross_dann_3mdad_r000_E1_dann_da573_random__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 3,
+  "best_val_ba_reported": 0.3875,
+  "test_ba_reported": 0.3529411764705882,
+  "test_acc_reported": 0.28104575163398693,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 3,
+    "file": "epoch_003.pt",
+    "present": true,
+    "value": 0.3875,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 47,
+    "file": "epoch_047.pt",
+    "present": true,
+    "value": 0.9488140642710535,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 23,
+    "file": "epoch_023.pt",
+    "present": true,
+    "value": 1.0328032970428467,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_003.pt",
+   "epoch_023.pt",
+   "epoch_047.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_065639_cross_dann_3mdad_r000_E1_dann_da573_random__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.5117647058823529,
+  "test_ba_reported": 0.39375,
+  "test_acc_reported": 0.3541666666666667,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.5117647058823529,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 47,
+    "file": "epoch_047.pt",
+    "present": true,
+    "value": 0.9404457201500213,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 22,
+    "file": "epoch_022.pt",
+    "present": true,
+    "value": 1.1095178127288818,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_022.pt",
+   "epoch_047.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_072903_cross_dann_dmd_r000_E1_dann_da573_random__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5622791946658796,
+  "test_ba_reported": 0.5697997141981936,
+  "test_acc_reported": 0.461669921875,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5622791946658796,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 31,
+    "file": "epoch_031.pt",
+    "present": true,
+    "value": 0.9427588391298068,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.200390625,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 34,
+    "file": "epoch_034.pt",
+    "present": true,
+    "value": 0.5512860417366028,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_031.pt",
+   "epoch_034.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_072904_cross_dann_3mdad_r000_E1_dann_da573_random__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.40588235294117647,
+  "test_ba_reported": 0.411764705882353,
+  "test_acc_reported": 0.35947712418300654,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.40588235294117647,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 40,
+    "file": "epoch_040.pt",
+    "present": true,
+    "value": 0.9378635104441555,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 42,
+    "file": "epoch_042.pt",
+    "present": true,
+    "value": 1.0293750762939453,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_040.pt",
+   "epoch_042.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_075438_cross_dann_dmd_r000_E1_dann_da573_random__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5949672053893676,
+  "test_ba_reported": 0.551203270167291,
+  "test_acc_reported": 0.446032342986085,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5949672053893676,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 3,
+    "file": "epoch_003.pt",
+    "present": true,
+    "value": 0.9469500680522184,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2021083110935522,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.4661955237388611,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_003.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_082529_cross_dann_dmd_r000_E1_dann_da573_random__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_da573_random__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.4792427227951158,
+  "test_ba_reported": 0.5298283432845557,
+  "test_acc_reported": 0.43586206896551727,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.4792427227951158,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 7,
+    "file": "epoch_007.pt",
+    "present": true,
+    "value": 0.9451103605673499,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.04785435630689207,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 48,
+    "file": "epoch_048.pt",
+    "present": true,
+    "value": 0.18021643161773682,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_007.pt",
+   "epoch_048.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_135551_cross_dann_3mdad_r000_E1_source_only_da573_random__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 6,
+  "best_val_ba_reported": 0.5470588235294118,
+  "test_ba_reported": 0.3875,
+  "test_acc_reported": 0.3611111111111111,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 6,
+    "file": "epoch_006.pt",
+    "present": true,
+    "value": 0.5470588235294118,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 30,
+    "file": "epoch_030.pt",
+    "present": true,
+    "value": 0.9614327727230952,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.37058823529411766,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 48,
+    "file": "epoch_048.pt",
+    "present": true,
+    "value": 0.7720957398414612,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_006.pt",
+   "epoch_030.pt",
+   "epoch_048.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_151925_cross_dann_3mdad_r000_E1_source_only_da573_random__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 6,
+  "best_val_ba_reported": 0.5,
+  "test_ba_reported": 0.5058823529411764,
+  "test_acc_reported": 0.45098039215686275,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 6,
+    "file": "epoch_006.pt",
+    "present": true,
+    "value": 0.5,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 32,
+    "file": "epoch_032.pt",
+    "present": true,
+    "value": 0.9521789018428803,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.3,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 13,
+    "file": "epoch_013.pt",
+    "present": true,
+    "value": 1.0926624536514282,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_006.pt",
+   "epoch_013.pt",
+   "epoch_032.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_155342_cross_dann_3mdad_r000_E1_source_only_da573_random__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 6,
+  "best_val_ba_reported": 0.5470588235294118,
+  "test_ba_reported": 0.5529411764705883,
+  "test_acc_reported": 0.5163398692810458,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 6,
+    "file": "epoch_006.pt",
+    "present": true,
+    "value": 0.5470588235294118,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 32,
+    "file": "epoch_032.pt",
+    "present": true,
+    "value": 0.9605933343836569,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2823529411764706,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 49,
+    "file": "epoch_049.pt",
+    "present": true,
+    "value": 0.6781188249588013,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_006.pt",
+   "epoch_032.pt",
+   "epoch_049.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_161758_cross_dann_dmd_r000_E1_source_only_da573_random__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.5981248690671098,
+  "test_ba_reported": 0.5621487817052706,
+  "test_acc_reported": 0.505615234375,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.5981248690671098,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 13,
+    "file": "epoch_013.pt",
+    "present": true,
+    "value": 0.9535386606623165,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2964711319242074,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 39,
+    "file": "epoch_039.pt",
+    "present": true,
+    "value": 0.5061219334602356,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_013.pt",
+   "epoch_039.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_163251_cross_dann_dmd_r000_E1_source_only_da573_random__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5704152829971421,
+  "test_ba_reported": 0.5068446860340676,
+  "test_acc_reported": 0.4125611132004513,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5704152829971421,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 4,
+    "file": "epoch_004.pt",
+    "present": true,
+    "value": 0.9515460545030439,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.31731970736897347,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 46,
+    "file": "epoch_046.pt",
+    "present": true,
+    "value": 0.5301594138145447,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_004.pt",
+   "epoch_046.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_172254_cross_dann_dmd_r000_E1_source_only_da573_random__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_source_only_da573_random__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/da573_random.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.46864710622139893,
+  "test_ba_reported": 0.5263026030210709,
+  "test_acc_reported": 0.4579310344827586,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.46864710622139893,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 7,
+    "file": "epoch_007.pt",
+    "present": true,
+    "value": 0.9527178765081991,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.3342175770170773,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 45,
+    "file": "epoch_045.pt",
+    "present": true,
+    "value": 0.5119797587394714,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_007.pt",
+   "epoch_045.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_211123_cross_cdan_3mdad_r000_E1_cdan_broad573__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__3mdad_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.47058823529411764,
+  "test_ba_reported": 0.44375,
+  "test_acc_reported": 0.3888888888888889,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.47058823529411764,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.6197614835383652,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.2184537947177887,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_005.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_213559_cross_cdan_3mdad_r000_E1_cdan_broad573__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__3mdad_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.4,
+  "test_ba_reported": 0.388235294117647,
+  "test_acc_reported": 0.3202614379084967,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.4,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.7542202495831529,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 36,
+    "file": "epoch_036.pt",
+    "present": true,
+    "value": 0.2636864483356476,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_005.pt",
+   "epoch_036.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_213919_cross_cdan_3mdad_r000_E1_cdan_broad573__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__3mdad_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.4,
+  "test_ba_reported": 0.4352941176470588,
+  "test_acc_reported": 0.37254901960784315,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.4,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.6543645870258773,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 25,
+    "file": "epoch_025.pt",
+    "present": true,
+    "value": 0.1976441591978073,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_005.pt",
+   "epoch_025.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_220655_cross_cdan_dmd_r000_E1_cdan_broad573__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__dmd_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.48926172125118494,
+  "test_ba_reported": 0.5301250191290926,
+  "test_acc_reported": 0.433349609375,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.48926172125118494,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.940454746368725,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 17,
+    "file": "epoch_017.pt",
+    "present": true,
+    "value": 0.19388431310653687,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_014.pt",
+   "epoch_017.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_220655_cross_cdan_dmd_r000_E1_cdan_broad573__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__dmd_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.4653502914336286,
+  "test_ba_reported": 0.41039929993804075,
+  "test_acc_reported": 0.30424971793907485,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.4653502914336286,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 8,
+    "file": "epoch_008.pt",
+    "present": true,
+    "value": 0.9545999798687971,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.0,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 6,
+    "file": "epoch_006.pt",
+    "present": true,
+    "value": 0.12992767989635468,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_006.pt",
+   "epoch_008.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_223152_cross_cdan_3mdad_r000_E1_cdan_obc__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__3mdad_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.2,
+  "test_ba_reported": 0.2,
+  "test_acc_reported": 0.1111111111111111,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.3,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 33,
+    "file": "epoch_033.pt",
+    "present": true,
+    "value": 0.5807805061340332,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_002.pt",
+   "epoch_033.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260901_230600_cross_cdan_3mdad_r000_E1_cdan_obc__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__3mdad_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.2,
+  "test_ba_reported": 0.2,
+  "test_acc_reported": 0.1111111111111111,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.20833333333333334,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.0,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 11,
+    "file": "epoch_011.pt",
+    "present": true,
+    "value": 0.4763007164001465,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_002.pt",
+   "epoch_011.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_022749_cross_cdan_3mdad_r000_E1_cdan_obc__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__3mdad_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.2,
+  "test_ba_reported": 0.2,
+  "test_acc_reported": 0.1111111111111111,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.4010416666666667,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 33,
+    "file": "epoch_033.pt",
+    "present": true,
+    "value": 0.1635504513978958,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_005.pt",
+   "epoch_033.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_122107_cross_cdan_dmd_r000_E1_cdan_obc__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__dmd_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.29246219586166344,
+  "test_ba_reported": 0.3080165612590312,
+  "test_acc_reported": 0.259765625,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.29246219586166344,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.8875000000000001,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 40,
+    "file": "epoch_040.pt",
+    "present": true,
+    "value": 0.10405133664608002,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_014.pt",
+   "epoch_040.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_123105_cross_cdan_dmd_r000_E1_cdan_obc__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__dmd_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.3106165257460974,
+  "test_ba_reported": 0.274909722094274,
+  "test_acc_reported": 0.2910868747649492,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.3106165257460974,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 49,
+    "file": "epoch_049.pt",
+    "present": true,
+    "value": 0.8802083333333334,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 30,
+    "file": "epoch_030.pt",
+    "present": true,
+    "value": 0.18097107112407684,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_030.pt",
+   "epoch_049.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_125119_cross_cdan_dmd_r000_E1_cdan_obc__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_obc__dmd_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 18,
+  "best_val_ba_reported": 0.2411088977662828,
+  "test_ba_reported": 0.2298156971827238,
+  "test_acc_reported": 0.40344827586206894,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 18,
+    "file": "epoch_018.pt",
+    "present": true,
+    "value": 0.2411088977662828,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 39,
+    "file": "epoch_039.pt",
+    "present": true,
+    "value": 0.8947916666666668,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 38,
+    "file": "epoch_038.pt",
+    "present": true,
+    "value": 0.16977271437644958,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_018.pt",
+   "epoch_038.pt",
+   "epoch_039.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_161229_cross_dann_3mdad_r000_E1_dann_obc__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.30588235294117644,
+  "test_ba_reported": 0.3375,
+  "test_acc_reported": 0.2638888888888889,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.30588235294117644,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.8604166666666666,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 36,
+    "file": "epoch_036.pt",
+    "present": true,
+    "value": 1.1367589235305786,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_036.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_163326_cross_dann_3mdad_r000_E1_dann_obc__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.35,
+  "test_ba_reported": 0.2823529411764706,
+  "test_acc_reported": 0.22875816993464052,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.35,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 29,
+    "file": "epoch_029.pt",
+    "present": true,
+    "value": 0.88125,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.1875,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 21,
+    "file": "epoch_021.pt",
+    "present": true,
+    "value": 0.8913491368293762,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_021.pt",
+   "epoch_029.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_165557_cross_dann_3mdad_r000_E1_dann_obc__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.31176470588235294,
+  "test_ba_reported": 0.3529411764705882,
+  "test_acc_reported": 0.28104575163398693,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.31176470588235294,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.8614583333333333,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 21,
+    "file": "epoch_021.pt",
+    "present": true,
+    "value": 1.0422114133834839,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_021.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_172232_cross_dann_dmd_r000_E1_dann_obc__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.3368167889663322,
+  "test_ba_reported": 0.3095068813829417,
+  "test_acc_reported": 0.3212890625,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.3368167889663322,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 19,
+    "file": "epoch_019.pt",
+    "present": true,
+    "value": 0.9010416666666666,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.21129864386792452,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 38,
+    "file": "epoch_038.pt",
+    "present": true,
+    "value": 0.11741141229867935,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_019.pt",
+   "epoch_038.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_173721_cross_dann_3mdad_r000_E1_source_only_obc__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 16,
+  "best_val_ba_reported": 0.34705882352941175,
+  "test_ba_reported": 0.33125,
+  "test_acc_reported": 0.2569444444444444,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 16,
+    "file": "epoch_016.pt",
+    "present": true,
+    "value": 0.34705882352941175,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.8781249999999999,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2823529411764706,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.9279625415802002,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_014.pt",
+   "epoch_016.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_211758_cross_dann_dmd_r000_E1_dann_obc__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 12,
+  "best_val_ba_reported": 0.2730687197120868,
+  "test_ba_reported": 0.27941615423147825,
+  "test_acc_reported": 0.17751034223392254,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 12,
+    "file": "epoch_012.pt",
+    "present": true,
+    "value": 0.2730687197120868,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 28,
+    "file": "epoch_028.pt",
+    "present": true,
+    "value": 0.9104166666666668,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 34,
+    "file": "epoch_034.pt",
+    "present": true,
+    "value": 0.38674116134643555,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_012.pt",
+   "epoch_028.pt",
+   "epoch_034.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260902_212530_cross_dann_dmd_r000_E1_dann_obc__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_obc__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 32,
+  "best_val_ba_reported": 0.32713481563274344,
+  "test_ba_reported": 0.3469554695370055,
+  "test_acc_reported": 0.34,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 32,
+    "file": "epoch_032.pt",
+    "present": true,
+    "value": 0.32713481563274344,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 7,
+    "file": "epoch_007.pt",
+    "present": true,
+    "value": 0.9114583333333334,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.20594059405940596,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 41,
+    "file": "epoch_041.pt",
+    "present": true,
+    "value": 0.3169757127761841,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_007.pt",
+   "epoch_032.pt",
+   "epoch_041.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_014311_cross_dann_3mdad_r000_E1_source_only_obc__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 22,
+  "best_val_ba_reported": 0.35,
+  "test_ba_reported": 0.2705882352941177,
+  "test_acc_reported": 0.2549019607843137,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 22,
+    "file": "epoch_022.pt",
+    "present": true,
+    "value": 0.35,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.9031250000000001,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.31875,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 18,
+    "file": "epoch_018.pt",
+    "present": true,
+    "value": 0.8562881946563721,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_018.pt",
+   "epoch_022.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_020549_cross_dann_3mdad_r000_E1_source_only_obc__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 35,
+  "best_val_ba_reported": 0.3235294117647059,
+  "test_ba_reported": 0.34705882352941175,
+  "test_acc_reported": 0.27450980392156865,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 35,
+    "file": "epoch_035.pt",
+    "present": true,
+    "value": 0.3235294117647059,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 43,
+    "file": "epoch_043.pt",
+    "present": true,
+    "value": 0.8885416666666667,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.21176470588235294,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.7517716884613037,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_035.pt",
+   "epoch_043.pt",
+   "epoch_044.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_022558_cross_dann_dmd_r000_E1_source_only_obc__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 49,
+  "best_val_ba_reported": 0.34922033208220415,
+  "test_ba_reported": 0.31495917938559226,
+  "test_acc_reported": 0.348876953125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 49,
+    "file": "epoch_049.pt",
+    "present": true,
+    "value": 0.34922033208220415,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.8895833333333334,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.346408782253234,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 44,
+    "file": "epoch_044.pt",
+    "present": true,
+    "value": 0.6322042346000671,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_044.pt",
+   "epoch_049.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_022813_cross_dann_dmd_r000_E1_source_only_obc__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 36,
+  "best_val_ba_reported": 0.3622696148254539,
+  "test_ba_reported": 0.36804374745496454,
+  "test_acc_reported": 0.3948852952237683,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 36,
+    "file": "epoch_036.pt",
+    "present": true,
+    "value": 0.3622696148254539,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 40,
+    "file": "epoch_040.pt",
+    "present": true,
+    "value": 0.9052083333333334,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2979274820106781,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 43,
+    "file": "epoch_043.pt",
+    "present": true,
+    "value": 0.5106230974197388,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_036.pt",
+   "epoch_040.pt",
+   "epoch_043.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_060159_cross_dann_dmd_r000_E1_source_only_obc__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_source_only_obc__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": null,
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "<DATA_ROOT>/UMTRI/Occupant_Behavior/code/features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": null,
+  "source_memmap_metadata": null,
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 36,
+  "best_val_ba_reported": 0.34647168222674335,
+  "test_ba_reported": 0.34789292267310756,
+  "test_acc_reported": 0.33275862068965517,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 36,
+    "file": "epoch_036.pt",
+    "present": true,
+    "value": 0.34647168222674335,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 7,
+    "file": "epoch_007.pt",
+    "present": true,
+    "value": 0.9177083333333332,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.28805517609527687,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 46,
+    "file": "epoch_046.pt",
+    "present": true,
+    "value": 0.5642644762992859,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_007.pt",
+   "epoch_036.pt",
+   "epoch_046.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_072332_cross_cdan_dmd_r000_E1_cdan_broad573__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_broad573__dmd_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5340512773143555,
+  "test_ba_reported": 0.5984161914172099,
+  "test_acc_reported": 0.4317241379310345,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5340512773143555,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 9,
+    "file": "epoch_009.pt",
+    "present": true,
+    "value": 0.9519310090546648,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 8,
+    "file": "epoch_008.pt",
+    "present": true,
+    "value": 0.15470217168331146,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_008.pt",
+   "epoch_009.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_075659_cross_cdan_3mdad_r000_E1_cdan_narrow573__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__3mdad_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.3,
+  "test_ba_reported": 0.225,
+  "test_acc_reported": 0.14583333333333334,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.3,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.8592582745808551,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 38,
+    "file": "epoch_038.pt",
+    "present": true,
+    "value": 0.27870994806289673,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_038.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_082051_cross_cdan_3mdad_r000_E1_cdan_narrow573__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__3mdad_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.25,
+  "test_ba_reported": 0.27647058823529413,
+  "test_acc_reported": 0.20261437908496732,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.25,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.760871095750128,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 38,
+    "file": "epoch_038.pt",
+    "present": true,
+    "value": 0.26222658157348633,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_038.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_084547_cross_cdan_3mdad_r000_E1_cdan_narrow573__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__3mdad_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.2529411764705882,
+  "test_ba_reported": 0.27647058823529413,
+  "test_acc_reported": 0.19607843137254902,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.2529411764705882,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.8320423378891122,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 37,
+    "file": "epoch_037.pt",
+    "present": true,
+    "value": 0.1893978863954544,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_005.pt",
+   "epoch_037.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_091054_cross_cdan_dmd_r000_E1_cdan_narrow573__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__dmd_f0",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.4855243801479272,
+  "test_ba_reported": 0.5078547223728359,
+  "test_acc_reported": 0.458740234375,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.4855243801479272,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 9,
+    "file": "epoch_009.pt",
+    "present": true,
+    "value": 0.9257962218983723,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 32,
+    "file": "epoch_032.pt",
+    "present": true,
+    "value": 0.13335874676704407,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_009.pt",
+   "epoch_032.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_110504_cross_cdan_dmd_r000_E1_cdan_narrow573__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__dmd_f1",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 14,
+  "best_val_ba_reported": 0.4502905263548923,
+  "test_ba_reported": 0.42217195325744755,
+  "test_acc_reported": 0.37457690861226023,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.4502905263548923,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 16,
+    "file": "epoch_016.pt",
+    "present": true,
+    "value": 0.9292472735349081,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 42,
+    "file": "epoch_042.pt",
+    "present": true,
+    "value": 0.13783904910087585,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_014.pt",
+   "epoch_016.pt",
+   "epoch_042.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_122248_cross_cdan_dmd_r000_E1_cdan_narrow573__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_cdan_narrow573__dmd_f2",
+  "mode": "cdan",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5178600410674293,
+  "test_ba_reported": 0.5466855919711777,
+  "test_acc_reported": 0.49137931034482757,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5178600410674293,
+    "bytes": 349232506
+   },
+   "source_val": {
+    "epoch": 8,
+    "file": "epoch_008.pt",
+    "present": true,
+    "value": 0.9205739252782262,
+    "bytes": 349232506
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 349232506
+   },
+   "min_target_entropy": {
+    "epoch": 47,
+    "file": "epoch_047.pt",
+    "present": true,
+    "value": 0.09649505466222763,
+    "bytes": 349232506
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_008.pt",
+   "epoch_047.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_125858_cross_dann_3mdad_r000_E1_dann_broad573__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.4235294117647059,
+  "test_ba_reported": 0.425,
+  "test_acc_reported": 0.3819444444444444,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.4235294117647059,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 17,
+    "file": "epoch_017.pt",
+    "present": true,
+    "value": 0.9597996835900061,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.21176470588235294,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 4,
+    "file": "epoch_004.pt",
+    "present": true,
+    "value": 1.1444923877716064,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_004.pt",
+   "epoch_005.pt",
+   "epoch_017.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_133432_cross_dann_3mdad_r000_E1_dann_broad573__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.39375,
+  "test_ba_reported": 0.4352941176470589,
+  "test_acc_reported": 0.38562091503267976,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.39375,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 26,
+    "file": "epoch_026.pt",
+    "present": true,
+    "value": 0.9640822414343919,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 4,
+    "file": "epoch_004.pt",
+    "present": true,
+    "value": 1.039538025856018,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_004.pt",
+   "epoch_005.pt",
+   "epoch_026.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_140337_cross_dann_3mdad_r000_E1_dann_broad573__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.40588235294117647,
+  "test_ba_reported": 0.34705882352941175,
+  "test_acc_reported": 0.28104575163398693,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.40588235294117647,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 17,
+    "file": "epoch_017.pt",
+    "present": true,
+    "value": 0.9565010109364948,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 18,
+    "file": "epoch_018.pt",
+    "present": true,
+    "value": 0.9252752065658569,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_017.pt",
+   "epoch_018.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_142830_cross_dann_dmd_r000_E1_dann_broad573__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5643987643221217,
+  "test_ba_reported": 0.5354725154551399,
+  "test_acc_reported": 0.3798828125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5643987643221217,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 31,
+    "file": "epoch_031.pt",
+    "present": true,
+    "value": 0.9553548999785558,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.20078125,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 35,
+    "file": "epoch_035.pt",
+    "present": true,
+    "value": 0.3725030720233917,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_031.pt",
+   "epoch_035.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_152216_cross_dann_dmd_r000_E1_dann_broad573__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5484286686601753,
+  "test_ba_reported": 0.5158640020510102,
+  "test_acc_reported": 0.4106807070327191,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5484286686601753,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 9,
+    "file": "epoch_009.pt",
+    "present": true,
+    "value": 0.9660183106419665,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 33,
+    "file": "epoch_033.pt",
+    "present": true,
+    "value": 0.46694791316986084,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_009.pt",
+   "epoch_033.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_175905_cross_dann_dmd_r000_E1_dann_broad573__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_broad573__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.44026959714452396,
+  "test_ba_reported": 0.48684015108484696,
+  "test_acc_reported": 0.41724137931034483,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.44026959714452396,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 9,
+    "file": "epoch_009.pt",
+    "present": true,
+    "value": 0.9563995343565236,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 37,
+    "file": "epoch_037.pt",
+    "present": true,
+    "value": 0.27049490809440613,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_009.pt",
+   "epoch_037.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_204812_cross_dann_3mdad_r000_E1_dann_narrow573__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.3058823529411765,
+  "test_ba_reported": 0.2,
+  "test_acc_reported": 0.125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.3058823529411765,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 28,
+    "file": "epoch_028.pt",
+    "present": true,
+    "value": 0.9379791007479179,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 23,
+    "file": "epoch_023.pt",
+    "present": true,
+    "value": 0.9106237888336182,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_023.pt",
+   "epoch_028.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_211553_cross_dann_3mdad_r000_E1_dann_narrow573__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 4,
+  "best_val_ba_reported": 0.3125,
+  "test_ba_reported": 0.34705882352941175,
+  "test_acc_reported": 0.27450980392156865,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 4,
+    "file": "epoch_004.pt",
+    "present": true,
+    "value": 0.3125,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 33,
+    "file": "epoch_033.pt",
+    "present": true,
+    "value": 0.933505214419193,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 16,
+    "file": "epoch_016.pt",
+    "present": true,
+    "value": 0.6082162857055664,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_004.pt",
+   "epoch_016.pt",
+   "epoch_033.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_214406_cross_dann_3mdad_r000_E1_dann_narrow573__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 5,
+  "best_val_ba_reported": 0.30588235294117644,
+  "test_ba_reported": 0.2705882352941177,
+  "test_acc_reported": 0.22875816993464052,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 5,
+    "file": "epoch_005.pt",
+    "present": true,
+    "value": 0.30588235294117644,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 35,
+    "file": "epoch_035.pt",
+    "present": true,
+    "value": 0.9286802902394301,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.24705882352941178,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 17,
+    "file": "epoch_017.pt",
+    "present": true,
+    "value": 0.8374269008636475,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_005.pt",
+   "epoch_017.pt",
+   "epoch_035.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_214406_cross_dann_dmd_r000_E1_dann_narrow573__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5605512046081126,
+  "test_ba_reported": 0.5630908490076931,
+  "test_acc_reported": 0.466064453125,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5605512046081126,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 8,
+    "file": "epoch_008.pt",
+    "present": true,
+    "value": 0.9355761025115865,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 34,
+    "file": "epoch_034.pt",
+    "present": true,
+    "value": 0.4491955637931824,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_008.pt",
+   "epoch_034.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_220734_cross_dann_dmd_r000_E1_dann_narrow573__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.6045108701012157,
+  "test_ba_reported": 0.576174235304294,
+  "test_acc_reported": 0.5265137269650244,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.6045108701012157,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.9345442142485153,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.2,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 25,
+    "file": "epoch_025.pt",
+    "present": true,
+    "value": 0.33902835845947266,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_025.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_230433_cross_dann_3mdad_r000_E1_source_only_broad573__3mdad_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_broad573__3mdad_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 41,
+  "best_val_ba_reported": 0.5529411764705883,
+  "test_ba_reported": 0.5,
+  "test_acc_reported": 0.4444444444444444,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 41,
+    "file": "epoch_041.pt",
+    "present": true,
+    "value": 0.5529411764705883,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 21,
+    "file": "epoch_021.pt",
+    "present": true,
+    "value": 0.9611156515726408,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.511764705882353,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 47,
+    "file": "epoch_047.pt",
+    "present": true,
+    "value": 0.9886744618415833,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_021.pt",
+   "epoch_041.pt",
+   "epoch_047.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_232850_cross_dann_3mdad_r000_E1_source_only_broad573__3mdad_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_broad573__3mdad_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 21,
+  "best_val_ba_reported": 0.53125,
+  "test_ba_reported": 0.49411764705882355,
+  "test_acc_reported": 0.43790849673202614,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 21,
+    "file": "epoch_021.pt",
+    "present": true,
+    "value": 0.53125,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 30,
+    "file": "epoch_030.pt",
+    "present": true,
+    "value": 0.9523004275692447,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.5,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 46,
+    "file": "epoch_046.pt",
+    "present": true,
+    "value": 1.0819497108459473,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_021.pt",
+   "epoch_030.pt",
+   "epoch_046.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260903_235321_cross_dann_3mdad_r000_E1_source_only_broad573__3mdad_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_source_only_broad573__3mdad_f2",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "3mdad",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 42,
+  "best_val_ba_reported": 0.5235294117647059,
+  "test_ba_reported": 0.511764705882353,
+  "test_acc_reported": 0.46405228758169936,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 42,
+    "file": "epoch_042.pt",
+    "present": true,
+    "value": 0.5235294117647059,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 18,
+    "file": "epoch_018.pt",
+    "present": true,
+    "value": 0.9751738504426677,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.47058823529411764,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 42,
+    "file": "epoch_042.pt",
+    "present": true,
+    "value": 1.106905221939087,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_018.pt",
+   "epoch_042.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260904_091207_cross_dann_dmd_r000_E1_dann_narrow573__dmd_f2_fold2",
+  "status": "OK",
+  "run_tag": "E1_dann_narrow573__dmd_f2",
+  "mode": "dann",
+  "alpha_dann": 0.5,
+  "target_dataset": "dmd",
+  "fold": 2,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/narrow573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.4857193505905249,
+  "test_ba_reported": 0.5089679324383998,
+  "test_acc_reported": 0.43655172413793103,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.4857193505905249,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.9308323048914446,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.20099999999999998,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 13,
+    "file": "epoch_013.pt",
+    "present": true,
+    "value": 0.5349529981613159,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_013.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260904_111532_cross_dann_dmd_r000_E1_source_only_broad573__dmd_f0_fold0",
+  "status": "OK",
+  "run_tag": "E1_source_only_broad573__dmd_f0",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 0,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 2,
+  "best_val_ba_reported": 0.5806188886566158,
+  "test_ba_reported": 0.5851647854788707,
+  "test_acc_reported": 0.42041015625,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 2,
+    "file": "epoch_002.pt",
+    "present": true,
+    "value": 0.5806188886566158,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 18,
+    "file": "epoch_018.pt",
+    "present": true,
+    "value": 0.9517490076629862,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.4694931736990265,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 13,
+    "file": "epoch_013.pt",
+    "present": true,
+    "value": 0.5703139901161194,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_002.pt",
+   "epoch_013.pt",
+   "epoch_018.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ },
+ {
+  "run_dir": "20260904_111532_cross_dann_dmd_r000_E1_source_only_broad573__dmd_f1_fold1",
+  "status": "OK",
+  "run_tag": "E1_source_only_broad573__dmd_f1",
+  "mode": "dann",
+  "alpha_dann": 0.0,
+  "target_dataset": "dmd",
+  "fold": 1,
+  "label_space": "unified6",
+  "backbone": "videomae",
+  "source_manifest": "<REPO_ROOT>/manifests/broad573.csv",
+  "reverse_direction": false,
+  "select_by_source_val": false,
+  "batch_size": 8,
+  "num_frames": 16,
+  "memmap_path": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "memmap_metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "memmap_crop": 224,
+  "obc_metadata": "features/keyframe_video_metadata_dualcam.pkl",
+  "source_memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "source_memmap_metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "source_val_split": "val",
+  "fp16": true,
+  "epochs_recorded": 50,
+  "epochs_trained_reported": 50,
+  "best_model_epoch": 1,
+  "best_val_ba_reported": 0.5508385892431589,
+  "test_ba_reported": 0.523464911460237,
+  "test_acc_reported": 0.3817224520496427,
+  "rules": {
+   "oracle_target_val": {
+    "epoch": 1,
+    "file": "epoch_001.pt",
+    "present": true,
+    "value": 0.5508385892431589,
+    "bytes": 345799418
+   },
+   "source_val": {
+    "epoch": 14,
+    "file": "epoch_014.pt",
+    "present": true,
+    "value": 0.9561968820705379,
+    "bytes": 345799418
+   },
+   "last_epoch": {
+    "epoch": 50,
+    "file": "epoch_050.pt",
+    "present": true,
+    "value": 0.36208591095010745,
+    "bytes": 345799418
+   },
+   "min_target_entropy": {
+    "epoch": 37,
+    "file": "epoch_037.pt",
+    "present": true,
+    "value": 0.5681055784225464,
+    "bytes": 345799418
+   }
+  },
+  "missing": [],
+  "epoch_files_on_disk": [
+   "epoch_001.pt",
+   "epoch_014.pt",
+   "epoch_037.pt",
+   "epoch_050.pt"
+  ],
+  "has_best_model": true
+ }
+]

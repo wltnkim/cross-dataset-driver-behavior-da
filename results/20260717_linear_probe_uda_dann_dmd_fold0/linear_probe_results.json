@@ -1,0 +1,34 @@
+{
+  "target_dataset": "dmd",
+  "fold": 0,
+  "tag": "linear_probe_uda_dann",
+  "source_model": "results/20260607_184703_cross_dann_dmd_r000_uni_fold0/best_model.pt",
+  "n_train_total": 2659,
+  "n_test": 4096,
+  "ratios": {
+    "0.005": {
+      "n_train": 12,
+      "balanced_accuracy": 0.3514349598813716
+    },
+    "0.01": {
+      "n_train": 25,
+      "balanced_accuracy": 0.4770455317452405
+    },
+    "0.025": {
+      "n_train": 65,
+      "balanced_accuracy": 0.5927695000606407
+    },
+    "0.05": {
+      "n_train": 132,
+      "balanced_accuracy": 0.675225199241063
+    },
+    "0.1": {
+      "n_train": 264,
+      "balanced_accuracy": 0.7538469015163914
+    },
+    "1.0": {
+      "n_train": 2659,
+      "balanced_accuracy": 0.8392672342310161
+    }
+  }
+}

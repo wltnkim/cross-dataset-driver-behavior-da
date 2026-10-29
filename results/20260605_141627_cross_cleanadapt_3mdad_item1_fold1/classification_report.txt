@@ -1,0 +1,17 @@
+Method: cleanadapt, Fold: 1
+Source model: results/20260604_235447_cross_dann_r000_srconlysv_fold0/best_model.pt
+Pre-adapt Test BA: 0.2824
+Post-adapt Test BA: 0.2824
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0526    0.0294    0.0377        34
+        phone_call     0.3333    0.0294    0.0541        34
+     phone_texting     0.0000    0.0000    0.0000        34
+          reaching     0.2500    0.9412    0.3951        17
+adjusting_controls     0.2121    0.4118    0.2800        34
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.2092       153
+         macro avg     0.1413    0.2353    0.1278       153
+      weighted avg     0.1607    0.2092    0.1265       153

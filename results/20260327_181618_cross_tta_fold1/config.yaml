@@ -1,0 +1,11 @@
+batch_size: 8
+dna_root: <DATA_ROOT>/DriveAndAct
+fold: 1
+fp16: true
+method: tta
+num_frames: 16
+num_workers: 2
+source_model: results/20260326_130009_cross_dann_fold1/best_model.pt
+source_model_type: dann
+tta_epochs: 3
+tta_lr: 0.0001

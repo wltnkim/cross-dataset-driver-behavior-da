@@ -1,0 +1,11 @@
+{
+  "obc_test": {
+    "accuracy": 0.8793103448275862,
+    "balanced_accuracy": 0.921073717948718
+  },
+  "driveandact_test": {
+    "accuracy": 0.3969270166453265,
+    "balanced_accuracy": 0.23959368161853142
+  },
+  "domain_gap": 0.6814800363301865
+}

@@ -1,0 +1,3 @@
+run_id,backbone,slurm_job,n_epochs,mean_epoch_sec,median_epoch_sec,total_train_sec,gpu_name,wall_elapsed_sec,wall_elapsed_hms,gpu_hours,budgeted_time_h
+E3_dann_obc__dmd_f0_r2plus1d_18,r2plus1d_18,17884529,50,117.14549130439758,116.69108045101166,5857.274565219879,Tesla V100-PCIE-32GB,5914,1:38:34,1.643,6
+E3_dann_obc__dmd_f0_resnet50_tsn,resnet50_tsn,17884690,50,161.75312279701234,161.56658935546875,8087.6561398506165,Tesla V100-PCIE-32GB,8134,2:15:34,2.259,6

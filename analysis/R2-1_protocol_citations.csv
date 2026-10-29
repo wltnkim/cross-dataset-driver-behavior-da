@@ -1,0 +1,148 @@
+method,tables,field,value,code_citation,paper_tex_citation
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},source_labels_used,"yes (OBC 33-class head, probabilities aggregated 33->6)",eval_source_only.py:79; eval_source_only.py:127,
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},target_labels_used,no,eval_source_only.py:127,
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},unlabeled_target_used,no,eval_source_only.py:127,
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},initialization,K400 -> OBC 33-class,eval_source_only.py:79,main.tex:421: natively trained six-class OBC model
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},model_selection,n/a - evaluation only,eval_source_only.py:127,main.tex:421: natively trained six-class OBC model
+"Source-Only (33-cls, prob.-avg.)",\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:421: natively trained six-class OBC model
+Source-Only (6-cls native),\ref{tab:sfda_negative},source_labels_used,yes (native 6-class),results/20260604_235447_cross_dann_r000_srconlysv_fold0/config.yaml mode:dann alpha_dann:0.0,
+Source-Only (6-cls native),\ref{tab:sfda_negative},target_labels_used,no,results/20260604_235447_cross_dann_r000_srconlysv_fold0/config.yaml target_label_ratio:0.0,
+Source-Only (6-cls native),\ref{tab:sfda_negative},unlabeled_target_used,"yes (domain branch only, alpha=0)",results/20260604_235447_cross_dann_r000_srconlysv_fold0/config.yaml alpha_dann:0.0,
+Source-Only (6-cls native),\ref{tab:sfda_negative},initialization,K400,train_cross.py:687-689,main.tex:421: natively trained six-class OBC model
+Source-Only (6-cls native),\ref{tab:sfda_negative},model_selection,source-val BA,results/20260604_235447_cross_dann_r000_srconlysv_fold0/config.yaml select_by_source_val:true; train_cross.py:751,main.tex:421: natively trained six-class OBC model
+Source-Only (6-cls native),\ref{tab:sfda_negative},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:421: natively trained six-class OBC model
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",source_labels_used,no,train_cross.py:687-689,
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",target_labels_used,yes (100%),train_cross.py:494,
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",unlabeled_target_used,no,train_cross.py:494,
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+Target-Only,"\ref{tab:main_results}, \ref{tab:uda_failure} (ref), \ref{tab:ssda_vs_le} (LE)",eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+Fine-Tune,\ref{tab:main_results},source_labels_used,indirect (OBC-pretrained weights),train_cross.py --pretrained,
+Fine-Tune,\ref{tab:main_results},target_labels_used,yes (100%),train_cross.py:494,
+Fine-Tune,\ref{tab:main_results},unlabeled_target_used,no,train_cross.py:494,
+Fine-Tune,\ref{tab:main_results},initialization,K400 -> OBC,train_cross.py --pretrained,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+Fine-Tune,\ref{tab:main_results},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+Fine-Tune,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:main_results},source_labels_used,yes,train_cross.py:694,
+DANN,\ref{tab:main_results},target_labels_used,yes (100%),train_cross.py:694,
+DANN,\ref{tab:main_results},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+DANN,\ref{tab:main_results},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:main_results},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:uda_failure},source_labels_used,yes,train_cross.py:687-689,
+DANN,\ref{tab:uda_failure},target_labels_used,no (0%),train_cross.py:687-689,
+DANN,\ref{tab:uda_failure},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+DANN,\ref{tab:uda_failure},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:uda_failure},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+DANN,\ref{tab:uda_failure},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:main_results},source_labels_used,yes,train_cross.py:694,
+CDAN,\ref{tab:main_results},target_labels_used,yes (100%),train_cross.py:694,
+CDAN,\ref{tab:main_results},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+CDAN,\ref{tab:main_results},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:main_results},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:uda_failure},source_labels_used,yes,train_cross.py:687-689,
+CDAN,\ref{tab:uda_failure},target_labels_used,no (0%),train_cross.py:687-689,
+CDAN,\ref{tab:uda_failure},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+CDAN,\ref{tab:uda_failure},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:uda_failure},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+CDAN,\ref{tab:uda_failure},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:main_results},source_labels_used,yes,train_cross.py:694,
+MCC,\ref{tab:main_results},target_labels_used,yes (100%),train_cross.py:694,
+MCC,\ref{tab:main_results},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+MCC,\ref{tab:main_results},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:main_results},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:uda_failure},source_labels_used,yes,train_cross.py:687-689,
+MCC,\ref{tab:uda_failure},target_labels_used,no (0%),train_cross.py:687-689,
+MCC,\ref{tab:uda_failure},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+MCC,\ref{tab:uda_failure},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:uda_failure},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+MCC,\ref{tab:uda_failure},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:main_results},source_labels_used,yes,train_cross.py:694,
+BNM,\ref{tab:main_results},target_labels_used,yes (100%),train_cross.py:694,
+BNM,\ref{tab:main_results},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+BNM,\ref{tab:main_results},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:main_results},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:uda_failure},source_labels_used,yes,train_cross.py:687-689,
+BNM,\ref{tab:uda_failure},target_labels_used,no (0%),train_cross.py:687-689,
+BNM,\ref{tab:uda_failure},unlabeled_target_used,yes (domain loss on all target),train_cross.py:695,
+BNM,\ref{tab:uda_failure},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:uda_failure},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+BNM,\ref{tab:uda_failure},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+SHOT,\ref{tab:main_results},source_labels_used,no (source data unused after init),train_sfda.py:66,
+SHOT,\ref{tab:main_results},target_labels_used,yes (100%),train_sfda.py:263,
+SHOT,\ref{tab:main_results},unlabeled_target_used,yes,train_sfda.py:811,
+SHOT,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_185549_cross_shot_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+SHOT,\ref{tab:main_results},model_selection,target-val BA,train_sfda.py:263,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+SHOT,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",source_labels_used,no (source data unused after init),train_sfda.py:66,
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",target_labels_used,no (0%),train_sfda.py:811,
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",unlabeled_target_used,yes,train_sfda.py:811,
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",initialization,"native 6-class source-only, one shared fold-0 model",results/20260605_122459_cross_shot_item1_fold0/config.yaml source_model:...srconlysv_fold0,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",model_selection,target-val BA,train_sfda.py:263,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+SHOT,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+CleanAdapt,\ref{tab:main_results},source_labels_used,no (source data unused after init),train_sfda.py:66,
+CleanAdapt,\ref{tab:main_results},target_labels_used,yes (100%),train_sfda.py:263,
+CleanAdapt,\ref{tab:main_results},unlabeled_target_used,yes,train_sfda.py:811,
+CleanAdapt,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_185549_cross_shot_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+CleanAdapt,\ref{tab:main_results},model_selection,target-val BA,train_sfda.py:263,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+CleanAdapt,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",source_labels_used,no (source data unused after init),train_sfda.py:66,
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",target_labels_used,no (0%),train_sfda.py:811,
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",unlabeled_target_used,yes,train_sfda.py:811,
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",initialization,"native 6-class source-only, one shared fold-0 model",results/20260605_122459_cross_shot_item1_fold0/config.yaml source_model:...srconlysv_fold0,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",model_selection,target-val BA,train_sfda.py:263,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+CleanAdapt,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+C-SFDA,\ref{tab:main_results},source_labels_used,no (source data unused after init),train_sfda.py:66,
+C-SFDA,\ref{tab:main_results},target_labels_used,yes (100%),train_sfda.py:263,
+C-SFDA,\ref{tab:main_results},unlabeled_target_used,yes,train_sfda.py:811,
+C-SFDA,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_185549_cross_shot_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+C-SFDA,\ref{tab:main_results},model_selection,target-val BA,train_sfda.py:263,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+C-SFDA,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",source_labels_used,no (source data unused after init),train_sfda.py:66,
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",target_labels_used,no (0%),train_sfda.py:811,
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",unlabeled_target_used,yes,train_sfda.py:811,
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",initialization,"native 6-class source-only, one shared fold-0 model",results/20260605_122459_cross_shot_item1_fold0/config.yaml source_model:...srconlysv_fold0,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",model_selection,target-val BA,train_sfda.py:263,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+C-SFDA,"\ref{tab:uda_failure}, \ref{tab:sfda_negative}",eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:361: start from a shared source model selected on a held-out OBC source-validation split
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",source_labels_used,no,eval_tta.py:539,
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",target_labels_used,no,eval_tta.py:68,
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",unlabeled_target_used,"yes (BN statistics only; VideoMAE has no BN, so no-op)",eval_tta.py:68,
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",initialization,"DANN-adapted, same fold",results/20260326_192101_cross_tent_fold0/config.yaml source_model_type:dann,"main.tex:494: VideoMAE contains no BatchNorm layers, BN-Adapt has no statistics to replace"
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",model_selection,"none - single pass, no checkpoint selection",eval_tta.py:587,"main.tex:494: VideoMAE contains no BatchNorm layers, BN-Adapt has no statistics to replace"
+BN-Adapt,"\ref{tab:main_results}, \ref{tab:uda_failure}",eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:494: VideoMAE contains no BatchNorm layers, BN-Adapt has no statistics to replace"
+TENT,\ref{tab:main_results},source_labels_used,no,eval_tta.py:539,
+TENT,\ref{tab:main_results},target_labels_used,no,eval_tta.py:96,
+TENT,\ref{tab:main_results},unlabeled_target_used,yes (test-time adaptation on unlabeled target),eval_tta.py:96,
+TENT,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_192101_cross_tent_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+TENT,\ref{tab:main_results},model_selection,"none - single pass, no checkpoint selection",eval_tta.py:587,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+TENT,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+LN-Ent,\ref{tab:main_results},source_labels_used,no,eval_tta.py:539,
+LN-Ent,\ref{tab:main_results},target_labels_used,no,eval_tta.py:96,
+LN-Ent,\ref{tab:main_results},unlabeled_target_used,yes (test-time adaptation on unlabeled target),eval_tta.py:96,
+LN-Ent,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_192101_cross_tent_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+LN-Ent,\ref{tab:main_results},model_selection,"none - single pass, no checkpoint selection",eval_tta.py:587,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+LN-Ent,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+ViTTA,\ref{tab:main_results},source_labels_used,no,eval_tta.py:539,
+ViTTA,\ref{tab:main_results},target_labels_used,no,eval_tta.py:96,
+ViTTA,\ref{tab:main_results},unlabeled_target_used,yes (test-time adaptation on unlabeled target),eval_tta.py:96,
+ViTTA,\ref{tab:main_results},initialization,"DANN-adapted, same fold",results/20260326_192101_cross_tent_fold0/config.yaml source_model_type:dann,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+ViTTA,\ref{tab:main_results},model_selection,"none - single pass, no checkpoint selection",eval_tta.py:587,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+ViTTA,\ref{tab:main_results},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,main.tex:315: the source-free and test-time methods here start from the DANN-adapted model of the same fold
+SSDA-DANN,\ref{tab:ssda_vs_le},source_labels_used,yes,train_cross.py:694,
+SSDA-DANN,\ref{tab:ssda_vs_le},target_labels_used,"yes, partial (5/10/25/50/100%)",train_cross.py:494,
+SSDA-DANN,\ref{tab:ssda_vs_le},unlabeled_target_used,yes (all target in domain loss),train_cross.py:695,
+SSDA-DANN,\ref{tab:ssda_vs_le},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+SSDA-DANN,\ref{tab:ssda_vs_le},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+SSDA-DANN,\ref{tab:ssda_vs_le},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},source_labels_used,no,train_cross.py:687-689,
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},target_labels_used,"yes, partial (same ratios)",train_cross.py:494,
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},unlabeled_target_used,no,train_cross.py:494,
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},initialization,K400,train_cross.py:687-689,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},model_selection,target-val BA (oracle),train_cross.py:750; train_cross.py:768,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+LE (target-only @ ratio),\ref{tab:ssda_vs_le},eval_class_count_DnA_DMD_3MDAD,6 / 5 / 5,train_cross.py:811,"main.tex:361: Checkpoints for the source-available methods (DANN, CDAN, MCC, BNM) are selected by target-validation balanced accuracy"
+[CONFLICT],,Chance baseline on DMD / 3MDAD,"RESOLVED in the working copy (text round 1, 2026-08-29): main.tex:158 now states per-target chance (0.167 Drive&Act, 0.200 DMD/3MDAD) and agrees with the code. This entry is kept as a record of the submitted-paper error, not a live conflict -- since this generator retargeted to the live copy, its own TEXCITE token for this line was updated to the corrected wording rather than the now-absent submitted phrasing.","balanced_accuracy_score is called with two arguments everywhere (train_cross.py:811), so sklearn averages recall over the classes PRESENT IN GROUND TRUTH. On DMD and 3MDAD that is five, so a single-class collapse scores 1/5 = 0.200, not 0.167.","SUBMITTED main.tex:158 stated the chance BA baseline is 1/6 ~= 0.167 for EVERY target, including those where only five classes appear."
+[CONFLICT],,Source-free initialisation differs between Table 3 and Tables 4/5,"NOT a conflict, but the two protocols share a method name in adjacent tables and are disclosed in two different places; the R2-1 table separates them by row.","Both are true, of different runs: results/20260326_185549_cross_shot_fold0/config.yaml uses source_model_type:dann per fold, while results/20260605_122459_cross_shot_item1_fold0/config.yaml points every fold at ...srconlysv_fold0.",main.tex:236 says initialised from the DANN-adapted model of the SAME FOLD; main.tex:282 says from a SHARED source model selected on OBC source-val.
+[CONFLICT],,'Source-Only' names two different models,"Disclosed, but only in a table caption; the R2-1 table promotes it to its own row.","Table 3 Source-Only = eval_source_only.py:79 + eval_source_only.py:127 (33-class head, probability aggregation). Table 5 start = results/20260604_235447_cross_dann_r000_srconlysv_fold0/config.yaml (mode:dann, alpha_dann:0.0, select_by_source_val:true).","main.tex:340 discloses that Table 5's source-only start is a native six-class model, distinct from Table 3's 33->6 aggregation."

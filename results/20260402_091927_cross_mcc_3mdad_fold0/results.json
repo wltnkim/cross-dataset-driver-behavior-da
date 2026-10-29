@@ -1,0 +1,8 @@
+{
+  "mode": "mcc",
+  "fold": 0,
+  "test_accuracy": 0.9513888888888888,
+  "test_balanced_accuracy": 0.95,
+  "best_val_balanced_accuracy": 0.9882352941176471,
+  "epochs_trained": 22
+}

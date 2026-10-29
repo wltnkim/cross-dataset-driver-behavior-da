@@ -1,0 +1,123 @@
+{
+ "broad573": {
+  "path": "<REPO_ROOT>/manifests/broad573.csv",
+  "sha256": "b3f22b31025d58cb4514c60a57a0c17073768e2cb09dd94c03c9a8c96412a309",
+  "n": 573,
+  "class_counts": {
+   "drinking": 58,
+   "phone_call": 51,
+   "phone_texting": 78,
+   "reaching": 229,
+   "adjusting_controls": 112,
+   "seatbelt": 45
+  },
+  "subjects": 10,
+  "sessions": 19,
+  "views": [
+   "kinect_color"
+  ]
+ },
+ "narrow573": {
+  "path": "<REPO_ROOT>/manifests/narrow573.csv",
+  "sha256": "83c0f39d0d4dfe1823ee27957d87f8886c741f0c965514c900ac89eb537628d2",
+  "n": 573,
+  "class_counts": {
+   "drinking": 58,
+   "phone_call": 51,
+   "phone_texting": 78,
+   "reaching": 229,
+   "adjusting_controls": 112,
+   "seatbelt": 45
+  },
+  "subjects": 10,
+  "sessions": 19,
+  "views": [
+   "kinect_color"
+  ]
+ },
+ "overlap_clips": 18,
+ "da573_random": {
+  "path": "<REPO_ROOT>/manifests/da573_random.csv",
+  "sha256": "1f7247ab5f92f3e46488c1c214bb0cb8aee50052914f55493bd9f9dbde64baa5",
+  "n": 573,
+  "seed": 20260830,
+  "draw": "RandomState(20260830).choice(2368, 573, replace=False) over the fold-0 D&A train embedding order; verified against A2's cells",
+  "class_counts": {
+   "drinking": 61,
+   "phone_call": 48,
+   "phone_texting": 76,
+   "reaching": 236,
+   "adjusting_controls": 102,
+   "seatbelt": 50
+  },
+  "subjects": 10,
+  "sessions": 19,
+  "views": [
+   "kinect_color"
+  ]
+ },
+ "driveandact_full2368": {
+  "path": "<REPO_ROOT>/manifests/driveandact_full2368.csv",
+  "sha256": "aaf4ca3317bf94b8c15eae8e6640cba207488448dc56bd2557efcf6c3a731e5d",
+  "n": 2368,
+  "dataset": "driveandact",
+  "construction": "complete fold-0 train split of driveandact (no sampling)",
+  "memmap": "<DATA_ROOT>/memmap256/driveandact_frames.npy",
+  "metadata": "<DATA_ROOT>/memmap256/driveandact_metadata.json",
+  "class_counts": {
+   "drinking": 241,
+   "phone_call": 212,
+   "phone_texting": 322,
+   "reaching": 944,
+   "adjusting_controls": 464,
+   "seatbelt": 185
+  },
+  "subjects": 10,
+  "sessions": 19,
+  "views": [
+   "kinect_color"
+  ]
+ },
+ "dmd_full2659": {
+  "path": "<REPO_ROOT>/manifests/dmd_full2659.csv",
+  "sha256": "6ae200c9cdce09678c7f568c6a60c18a57c90cfc2705227a0b75634ca66dd848",
+  "n": 2659,
+  "dataset": "dmd",
+  "construction": "complete fold-0 train split of dmd (no sampling)",
+  "memmap": "<DATA_ROOT>/memmap256/dmd_frames.npy",
+  "metadata": "<DATA_ROOT>/memmap256/dmd_metadata.json",
+  "class_counts": {
+   "drinking": 200,
+   "phone_call": 1083,
+   "phone_texting": 506,
+   "reaching": 769,
+   "adjusting_controls": 101
+  },
+  "subjects": 10,
+  "sessions": 39,
+  "views": [
+   "rgb_body"
+  ]
+ },
+ "3mdad_full153": {
+  "path": "<REPO_ROOT>/manifests/3mdad_full153.csv",
+  "sha256": "1dc62ad7b271ae9dc209cfa585e2a120617f2287de1afe512fc2f2e8c8477ae4",
+  "n": 153,
+  "dataset": "3mdad",
+  "construction": "complete fold-0 train split of 3mdad (no sampling)",
+  "memmap": "<DATA_ROOT>/memmap256/3mdad_frames.npy",
+  "metadata": "<DATA_ROOT>/memmap256/3mdad_metadata.json",
+  "class_counts": {
+   "drinking": 34,
+   "phone_call": 34,
+   "phone_texting": 34,
+   "reaching": 17,
+   "adjusting_controls": 34
+  },
+  "subjects": 17,
+  "sessions": 1,
+  "views": [
+   "RGB1"
+  ]
+ }
+}

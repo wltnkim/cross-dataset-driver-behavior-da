@@ -1,0 +1,65 @@
+{
+ "run_dir": "<REPO_ROOT>/results/20260829_212757_cross_dann_dmd_r000_calibB573_fold0",
+ "generated": "2026-08-29T22:42:36",
+ "mode": "DRY-RUN",
+ "epochs_recorded": 16,
+ "epoch_files_on_disk": 16,
+ "criteria": {
+  "oracle_target_val": {
+   "epoch": 1,
+   "value": 0.6212444729355205
+  },
+  "source_val": {
+   "epoch": 6,
+   "value": 0.9529448448803288
+  },
+  "min_target_entropy": {
+   "epoch": 13,
+   "value": 0.5856062173843384
+  },
+  "best_model_epoch": {
+   "epoch": 1,
+   "value": 0.6212444729355205
+  },
+  "last_epoch": {
+   "epoch": 16,
+   "value": 0.20105655174805773
+  }
+ },
+ "keep_epochs": [
+  1,
+  6,
+  13,
+  16
+ ],
+ "keep_files": [
+  "epoch_001.pt",
+  "epoch_006.pt",
+  "epoch_013.pt",
+  "epoch_016.pt"
+ ],
+ "delete_files": [
+  "epoch_002.pt",
+  "epoch_003.pt",
+  "epoch_004.pt",
+  "epoch_005.pt",
+  "epoch_007.pt",
+  "epoch_008.pt",
+  "epoch_009.pt",
+  "epoch_010.pt",
+  "epoch_011.pt",
+  "epoch_012.pt",
+  "epoch_014.pt",
+  "epoch_015.pt"
+ ],
+ "bytes_keep": 1383197672,
+ "bytes_delete": 4149593016,
+ "untouched_because_newer_than_metrics": [],
+ "preserved_always": [
+  "best_model.pt",
+  "checkpoint.pt",
+  "results.json",
+  "metrics.jsonl",
+  "config.yaml"
+ ]
+}

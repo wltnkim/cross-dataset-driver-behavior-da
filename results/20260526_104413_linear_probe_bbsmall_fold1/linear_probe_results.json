@@ -1,0 +1,34 @@
+{
+  "target_dataset": "driveandact",
+  "fold": 1,
+  "tag": "linear_probe_bbsmall",
+  "source_model": null,
+  "n_train_total": 2469,
+  "n_test": 616,
+  "ratios": {
+    "0.005": {
+      "n_train": 10,
+      "balanced_accuracy": 0.34027673737073255
+    },
+    "0.01": {
+      "n_train": 21,
+      "balanced_accuracy": 0.4181243470733708
+    },
+    "0.025": {
+      "n_train": 59,
+      "balanced_accuracy": 0.4498274466386038
+    },
+    "0.05": {
+      "n_train": 120,
+      "balanced_accuracy": 0.6179886296955313
+    },
+    "0.1": {
+      "n_train": 243,
+      "balanced_accuracy": 0.6340352766001199
+    },
+    "1.0": {
+      "n_train": 2469,
+      "balanced_accuracy": 0.7969118961405433
+    }
+  }
+}

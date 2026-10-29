@@ -1,0 +1,217 @@
+{
+ "seed": 20260830,
+ "tau_definition": "p90 of within-target leave-one-out NN cosine distance",
+ "tau": {
+  "driveandact": 0.1553818971630808,
+  "dmd": 0.11213150000429657,
+  "3mdad": 0.11675036562069083
+ },
+ "target_self_nn": {
+  "driveandact": {
+   "n": 2368,
+   "median": 0.09455996079962259,
+   "p90": 0.1553818971630808,
+   "mean": 0.09836180949015276,
+   "max": 0.2927992069104802
+  },
+  "dmd": {
+   "n": 2659,
+   "median": 0.05897798302875734,
+   "p90": 0.11213150000429657,
+   "mean": 0.06559244410259069,
+   "max": 0.27469317665816106
+  },
+  "3mdad": {
+   "n": 153,
+   "median": 0.08655807822946437,
+   "p90": 0.11675036562069083,
+   "mean": 0.08734986546570649,
+   "max": 0.1585055446563124
+  }
+ },
+ "identity_sanity_check": {
+  "driveandact": {
+   "n_source": 1184,
+   "n_target": 1184,
+   "median": 0.10674503318556855,
+   "p90": 0.17029168351047685,
+   "frac_above_tau": 0.1545608108108108,
+   "tau": 0.1553818971630808
+  },
+  "dmd": {
+   "n_source": 1329,
+   "n_target": 1330,
+   "median": 0.06849335283813957,
+   "p90": 0.12423854859319552,
+   "frac_above_tau": 0.15338345864661654,
+   "tau": 0.11213150000429657
+  },
+  "3mdad": {
+   "n_source": 76,
+   "n_target": 77,
+   "median": 0.08954712069978821,
+   "p90": 0.12593013007294754,
+   "frac_above_tau": 0.16883116883116883,
+   "tau": 0.11675036562069083
+  }
+ },
+ "cells": {
+  "OBC (573) -> driveandact": {
+   "n_source": 573,
+   "n_target_scored": 2368,
+   "median": 0.3292172539887902,
+   "p90": 0.4215288499781477,
+   "frac_above_tau": 1.0,
+   "tau": 0.1553818971630808,
+   "note": null
+  },
+  "OBC (573) -> dmd": {
+   "n_source": 573,
+   "n_target_scored": 2659,
+   "median": 0.32592134352775104,
+   "p90": 0.4044985741647553,
+   "frac_above_tau": 1.0,
+   "tau": 0.11213150000429657,
+   "note": null
+  },
+  "OBC (573) -> 3mdad": {
+   "n_source": 573,
+   "n_target_scored": 153,
+   "median": 0.353277839806852,
+   "p90": 0.4078793458307109,
+   "frac_above_tau": 1.0,
+   "tau": 0.11675036562069083,
+   "note": null
+  },
+  "DriveAndAct full (2368) -> driveandact": {
+   "skipped": "source == target (identity)"
+  },
+  "DriveAndAct full (2368) -> dmd": {
+   "n_source": 2368,
+   "n_target_scored": 2659,
+   "median": 0.22756092174703313,
+   "p90": 0.33199626053879605,
+   "frac_above_tau": 1.0,
+   "tau": 0.11213150000429657,
+   "note": null
+  },
+  "DriveAndAct full (2368) -> 3mdad": {
+   "n_source": 2368,
+   "n_target_scored": 153,
+   "median": 0.24487483983056557,
+   "p90": 0.29681275201656354,
+   "frac_above_tau": 1.0,
+   "tau": 0.11675036562069083,
+   "note": null
+  },
+  "broad573 -> driveandact": {
+   "n_source": 573,
+   "n_target_scored": 1795,
+   "median": 0.13195170164472536,
+   "p90": 0.1800829923504488,
+   "frac_above_tau": 0.28022284122562674,
+   "tau": 0.1553818971630808,
+   "note": "source is a subset of this target; 573 of 2368 target clips are IN the source (NN distance 0 by construction) and are excluded from this cell. Including them: median 0.1146, p90 0.1745, frac>tau 0.212"
+  },
+  "broad573 -> dmd": {
+   "n_source": 573,
+   "n_target_scored": 2659,
+   "median": 0.2519037113813424,
+   "p90": 0.3565067160771127,
+   "frac_above_tau": 1.0,
+   "tau": 0.11213150000429657,
+   "note": null
+  },
+  "broad573 -> 3mdad": {
+   "n_source": 573,
+   "n_target_scored": 153,
+   "median": 0.26837272373528476,
+   "p90": 0.3121489003184711,
+   "frac_above_tau": 1.0,
+   "tau": 0.11675036562069083,
+   "note": null
+  },
+  "narrow573 -> driveandact": {
+   "n_source": 573,
+   "n_target_scored": 1795,
+   "median": 0.14413097008793163,
+   "p90": 0.23124711468179962,
+   "frac_above_tau": 0.41671309192200556,
+   "tau": 0.1553818971630808,
+   "note": "source is a subset of this target; 573 of 2368 target clips are IN the source (NN distance 0 by construction) and are excluded from this cell. Including them: median 0.1199, p90 0.2198, frac>tau 0.316"
+  },
+  "narrow573 -> dmd": {
+   "n_source": 573,
+   "n_target_scored": 2659,
+   "median": 0.256082076583521,
+   "p90": 0.35191966421804594,
+   "frac_above_tau": 1.0,
+   "tau": 0.11213150000429657,
+   "note": null
+  },
+  "narrow573 -> 3mdad": {
+   "n_source": 573,
+   "n_target_scored": 153,
+   "median": 0.264017251292069,
+   "p90": 0.32140643661522644,
+   "frac_above_tau": 1.0,
+   "tau": 0.11675036562069083,
+   "note": null
+  },
+  "DA573 random (control) -> driveandact": {
+   "n_source": 573,
+   "n_target_scored": 1795,
+   "median": 0.12197652284775007,
+   "p90": 0.18972420726083342,
+   "frac_above_tau": 0.2540389972144847,
+   "tau": 0.1553818971630808,
+   "note": "source is a subset of this target; 573 of 2368 target clips are IN the source (NN distance 0 by construction) and are excluded from this cell. Including them: median 0.1039, p90 0.1800, frac>tau 0.193"
+  },
+  "DA573 random (control) -> dmd": {
+   "n_source": 573,
+   "n_target_scored": 2659,
+   "median": 0.24544113811435186,
+   "p90": 0.3488152970951132,
+   "frac_above_tau": 1.0,
+   "tau": 0.11213150000429657,
+   "note": null
+  },
+  "DA573 random (control) -> 3mdad": {
+   "n_source": 573,
+   "n_target_scored": 153,
+   "median": 0.26319346514683106,
+   "p90": 0.315426030461173,
+   "frac_above_tau": 1.0,
+   "tau": 0.11675036562069083,
+   "note": null
+  }
+ },
+ "embedding_checkpoint": "MCG-NJU/videomae-base-finetuned-kinetics",
+ "median_over_tau": {
+  "OBC (573)": {
+   "driveandact": 2.1187619664809527,
+   "dmd": 2.9065993366294274,
+   "3mdad": 3.025924911915163
+  },
+  "DriveAndAct full (2368)": {
+   "dmd": 2.0294111979088267,
+   "3mdad": 2.097422466548303
+  },
+  "broad573": {
+   "driveandact": 0.8492089751371467,
+   "dmd": 2.2465026453020793,
+   "3mdad": 2.2986885078133152
+  },
+  "narrow573": {
+   "driveandact": 0.9275917769021653,
+   "dmd": 2.283765726613027,
+   "3mdad": 2.261382650824685
+  },
+  "DA573 random (control)": {
+   "driveandact": 0.7850111568642377,
+   "dmd": 2.1888687666262134,
+   "3mdad": 2.254326688808135
+  }
+ },
+ "saturation_note": "frac_above_tau is 1.000 for every cross-dataset cell, i.e. EVERY target clip is further from the source than the target's own p90 self-NN distance. The column is saturated and cannot rank sources; median and p90 do."
+}

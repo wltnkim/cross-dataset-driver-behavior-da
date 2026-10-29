@@ -1,0 +1,10 @@
+{
+  "method": "tent",
+  "fold": 1,
+  "source_model": "results/20260326_130009_cross_dann_fold1/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.9642857142857143,
+  "pre_adapt_balanced_accuracy": 0.9573762275077801,
+  "test_accuracy": 0.9626623376623377,
+  "test_balanced_accuracy": 0.95550356833175
+}

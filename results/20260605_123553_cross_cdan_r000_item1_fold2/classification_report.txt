@@ -1,0 +1,16 @@
+Mode: cdan, Fold: 2
+Test Accuracy: 0.4456
+Test Balanced Accuracy: 0.2487
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0000    0.0000    0.0000        61
+        phone_call     0.2742    0.2656    0.2698        64
+     phone_texting     0.3293    0.2500    0.2842       108
+          reaching     0.5093    0.9649    0.6667       313
+adjusting_controls     0.2500    0.0119    0.0227       168
+          seatbelt     0.0000    0.0000    0.0000        67
+
+          accuracy                         0.4456       781
+         macro avg     0.2271    0.2487    0.2072       781
+      weighted avg     0.3259    0.4456    0.3335       781

@@ -1,0 +1,9 @@
+{
+  "mode": "bnm",
+  "fold": 1,
+  "target_dataset": "3mdad",
+  "test_accuracy": 0.3790849673202614,
+  "test_balanced_accuracy": 0.41764705882352937,
+  "best_val_balanced_accuracy": 0.46875,
+  "epochs_trained": 39
+}

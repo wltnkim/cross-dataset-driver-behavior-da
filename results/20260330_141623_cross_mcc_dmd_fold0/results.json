@@ -1,0 +1,8 @@
+{
+  "mode": "mcc",
+  "fold": 0,
+  "target_dataset": "dmd",
+  "eval_target": "dmd",
+  "test_accuracy": 0.972412109375,
+  "test_balanced_accuracy": 0.9715732488804287
+}

@@ -1,0 +1,17 @@
+Method: csfda, Fold: 2
+Source model: <DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260404_072102_cross_dann_3mdad_fold2/best_model.pt
+Pre-adapt Test BA: 1.0000
+Post-adapt Test BA: 0.9824
+
+                    precision    recall  f1-score   support
+
+          drinking     1.0000    0.9706    0.9851        34
+        phone_call     0.9706    0.9706    0.9706        34
+     phone_texting     1.0000    0.9706    0.9851        34
+          reaching     1.0000    1.0000    1.0000        17
+adjusting_controls     0.9444    1.0000    0.9714        34
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9804       153
+         macro avg     0.8192    0.8186    0.8187       153
+      weighted avg     0.9811    0.9804    0.9805       153

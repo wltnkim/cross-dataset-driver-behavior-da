@@ -1,0 +1,9 @@
+{
+  "config_id": "unified6",
+  "description": "6-class native unified taxonomy. OBC's 33 classes are merged to the 6 unified labels BEFORE training; the classifier head is 6-wide, never 33.",
+  "flags": {"--label_space": "unified6"},
+  "num_classes": 6,
+  "class_names": ["drinking","phone_call","phone_texting","reaching","adjusting_controls","seatbelt"],
+  "verified_by": "tools/dry_construct.py -> head [6,768], model.num_classes=6, domain head 2",
+  "note": "This is the frozen trainer's existing behaviour; --label_space unified6 is the default and changes nothing."
+}

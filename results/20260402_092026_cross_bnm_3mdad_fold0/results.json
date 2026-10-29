@@ -1,0 +1,8 @@
+{
+  "mode": "bnm",
+  "fold": 0,
+  "test_accuracy": 0.9513888888888888,
+  "test_balanced_accuracy": 0.95625,
+  "best_val_balanced_accuracy": 0.9941176470588236,
+  "epochs_trained": 20
+}

@@ -1,0 +1,11 @@
+{
+  "method": "vitta",
+  "fold": 1,
+  "target_dataset": "dmd",
+  "source_model": "results/20260402_092529_cross_dann_dmd_fold1/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_accuracy": 0.9623918766453554,
+  "pre_adapt_balanced_accuracy": 0.9543858612395996,
+  "test_accuracy": 0.9642722828130876,
+  "test_balanced_accuracy": 0.9552807146758676
+}

@@ -1,0 +1,11 @@
+{
+  "method": "shot",
+  "fold": 2,
+  "source_model": "results/20260326_183135_cross_dann_fold2/best_model.pt",
+  "source_model_type": "dann",
+  "pre_adapt_val_ba": 0.9605413953361078,
+  "pre_adapt_test_ba": 0.9239749240854581,
+  "test_accuracy": 0.8975672215108835,
+  "test_balanced_accuracy": 0.9226192123191558,
+  "best_val_balanced_accuracy": 0.9296798427693934
+}

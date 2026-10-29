@@ -1,0 +1,9 @@
+{
+  "mode": "mcc",
+  "fold": 1,
+  "target_dataset": "driveandact",
+  "test_accuracy": 0.4172077922077922,
+  "test_balanced_accuracy": 0.1863466767849238,
+  "best_val_balanced_accuracy": 0.2267025089605735,
+  "epochs_trained": 23
+}

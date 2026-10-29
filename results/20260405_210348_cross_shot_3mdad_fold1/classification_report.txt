@@ -1,0 +1,17 @@
+Method: shot, Fold: 1
+Source model: <DATA_ROOT>/UMTRI/Occupant_Behavior/code/results/20260404_063046_cross_dann_3mdad_fold1/best_model.pt
+Pre-adapt Test BA: 0.9471
+Post-adapt Test BA: 0.9824
+
+                    precision    recall  f1-score   support
+
+          drinking     1.0000    1.0000    1.0000        34
+        phone_call     0.9714    1.0000    0.9855        34
+     phone_texting     1.0000    0.9706    0.9851        34
+          reaching     1.0000    0.9412    0.9697        17
+adjusting_controls     0.9714    1.0000    0.9855        34
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.9869       153
+         macro avg     0.8238    0.8186    0.8210       153
+      weighted avg     0.9873    0.9869    0.9869       153

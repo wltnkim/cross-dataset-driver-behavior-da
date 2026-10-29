@@ -1,0 +1,16 @@
+Mode: bnm, Fold: 0
+Test Accuracy: 0.3958
+Test Balanced Accuracy: 0.4562
+
+                    precision    recall  f1-score   support
+
+          drinking     0.0000    0.0000    0.0000        32
+        phone_call     0.2857    0.4375    0.3457        32
+     phone_texting     0.0000    0.0000    0.0000        32
+          reaching     0.5926    1.0000    0.7442        16
+adjusting_controls     0.4219    0.8438    0.5625        32
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.3958       144
+         macro avg     0.2167    0.3802    0.2754       144
+      weighted avg     0.2231    0.3958    0.2845       144

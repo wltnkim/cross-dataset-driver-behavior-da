@@ -1,0 +1,44 @@
+{
+ "job_id": "6155473",
+ "run_dir": "<REPO_ROOT>/results/20260829_212757_cross_dann_dmd_r000_calibB573_fold0",
+ "slurm": {
+  "state": "COMPLETED",
+  "elapsed": "01:17:06",
+  "exit": "0:0"
+ },
+ "gpu": "Tesla V100S-PCIE-32GB",
+ "epochs_actually_run": 16,
+ "epochs_requested": 50,
+ "iters_per_epoch": 332,
+ "iters_rule": "floor(len(target_train)/batch_size) - TARGET-driven; the 71-batch source is cycled",
+ "epoch_seconds_steady": {
+  "median": 259.2720687389374,
+  "min": 253.6923234462738,
+  "max": 265.7752146720886,
+  "n": 15,
+  "epoch1_excluded": 293.4866774082184
+ },
+ "instrument_seconds_steady": {
+  "median": 37.806222677230835,
+  "min": 36.82493495941162,
+  "max": 42.705323457717896
+ },
+ "sec_per_train_iter": 0.668019264577383,
+ "sec_per_eval_clip": 0.011135853513175503,
+ "eval_clips_per_epoch": 3395,
+ "bytes_per_epoch_ckpt": 345799418,
+ "n_epoch_ckpts_on_disk": 16,
+ "bytes_best_model": 345799612,
+ "bytes_checkpoint_pt": 1037395638,
+ "cgroup_memory_peak_MiB": 46432,
+ "mem_requested_MiB": 122880,
+ "final": {
+  "epoch": 16,
+  "train_loss_cls": 0.4264053349573928,
+  "train_loss_domain": 0.7010977871446724,
+  "source_val_bal_acc": 0.9320555489910328,
+  "target_val_bal_acc": 0.20105655174805773,
+  "target_mean_entropy": 1.2416250705718994,
+  "entropy_ceiling_ln_C": 1.791759469228055
+ }
+}

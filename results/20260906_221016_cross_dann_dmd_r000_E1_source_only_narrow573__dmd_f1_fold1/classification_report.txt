@@ -1,0 +1,16 @@
+Mode: dann, Fold: 1
+Test Accuracy: 0.4269
+Test Balanced Accuracy: 0.5194
+
+                    precision    recall  f1-score   support
+
+          drinking     0.5617    0.6600    0.6069       200
+        phone_call     0.8563    0.1376    0.2371      1083
+     phone_texting     0.6633    0.1285    0.2152       506
+          reaching     0.5035    0.9285    0.6529       769
+adjusting_controls     0.1027    0.7426    0.1805       101
+          seatbelt     0.0000    0.0000    0.0000         0
+
+          accuracy                         0.4269      2659
+         macro avg     0.4479    0.4328    0.3154      2659
+      weighted avg     0.6668    0.4269    0.3789      2659
